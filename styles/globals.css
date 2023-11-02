@@ -1,0 +1,74 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Shippori+Mincho&display=swap');
+
+
+
+
+:root{
+--text: #4e4e4e;
+
+
+--primaryBg: #2F3061;
+--primaryText: #DFDFDF;
+--secondaryBg: #5F5980;
+--secondaryText: #F7F7FF;
+--secondaryBorder: #554d81;
+}
+
+.textColor{
+  color: var(--text)
+}
+
+
+
+.primaryBg{
+  background-color: var(--primaryBg);
+}
+
+.primaryText{
+  color: var(--primaryText)
+}
+
+.secondaryBg{
+  background-color: var(--secondaryBg);
+}
+
+.secondaryText{
+  color: var(--secondaryText)
+}
+
+.secondaryBorder{
+  border-color: var(--secondaryBorder)
+}
+
+html{
+min-height:100vh;
+/* background-image: linear-gradient(to bottom, #1F1F29, #222260,#15264D); */
+/* background-color: #DFE2E6; */
+scroll-behavior: smooth;
+color: var(--text);
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+background-attachment: fixed;
+overflow-x: hidden;
+max-width: 100%;
+width: 100%;
+}
+
+
+
+.wrap { overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+  word-break: break-word;
+  hyphens: auto;}
+
+
+.font
+{font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
