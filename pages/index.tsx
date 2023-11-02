@@ -12,8 +12,8 @@ import UniversityCard from '../components/UniversityCard'
 function Home() {
 
 
-  const title = "[Practice] Group Proj"
-  const description = "This website is a practice site."
+  const title = "Title"
+  const description = "Descriotion"
 
 
 
