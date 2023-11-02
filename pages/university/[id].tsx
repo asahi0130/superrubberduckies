@@ -5,8 +5,7 @@ import path from 'path';
 
 
 const UniversityPage = ({ university }) => {
-  // Render your page with the university data
-  // ...
+
 
   return (
     <>
