@@ -47,7 +47,7 @@ function Home() {
 
 <section className="" id="uni">
 
-<div className="container px-8 mb-24 mx-auto bg-gray-100 rounded-lg py-6 ">
+<div className="container px-8 mb-24 mx-auto bg-gray-200 rounded-lg py-6 ">
 
 <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
 
