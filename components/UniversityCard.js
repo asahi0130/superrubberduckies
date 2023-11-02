@@ -27,9 +27,6 @@ function UniversityCard({b, index}){
     <div className="mt-4">
     <p className="text-gray-900 title-font text-2xl font-medium">{b.title}</p>
 
-      <p className=" text-gray-800 mt-1 mb-24">{b.text}</p>
-
-
 
     </div>
 
