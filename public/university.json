@@ -3,24 +3,36 @@
         "title": "Keio GIGA",
         "slug": "giga",
         "desc": "text",
+        "rank": {
+        "tuition" : "1", 
+        "access": "1" },
         "image": ""
     },
     {
         "title": "Keio Pearl",
         "slug": "pearl",
         "desc": "text",
+        "rank": {
+        "tuition" : "1", 
+        "access": "1" },
         "image": ""
     },
     {
         "title": "Waseda SILS",
         "slug": "sils",
         "desc": "text",
+        "rank": {
+        "tuition" : "1", 
+        "access": "1" },
         "image": ""
     },
     {
         "title": "Waseda PSE",
         "slug": "pse",
         "desc": "text",
+        "rank": {
+        "tuition" : "1", 
+        "access": "1" },
         "image": ""
     }
 ]
