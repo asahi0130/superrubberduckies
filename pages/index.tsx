@@ -1,5 +1,4 @@
 import React, { use, useEffect, useState } from "react";
-import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
 import { NextSeo } from 'next-seo';
 import Head from 'next/head';
