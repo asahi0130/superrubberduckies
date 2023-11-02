@@ -33,7 +33,13 @@ function Home() {
 <Toaster position="bottom-right" />
 
 
-{/* */}
+{/* top */}
+
+<section id="top">
+
+<h1 className="text-3xl text-center">Title</h1>
+
+</section>
 
     
 
