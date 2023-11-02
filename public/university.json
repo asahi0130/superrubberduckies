@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Keio GIGA",
+        "slug": "giga",
+        "desc": "text",
+        "image": ""
+    },
+    {
+        "title": "Keio Pearl",
+        "slug": "pearl",
+        "desc": "text",
+        "image": ""
+    },
+    {
+        "title": "Waseda SILS",
+        "slug": "sils",
+        "desc": "text",
+        "image": ""
+    },
+    {
+        "title": "Waseda PSE",
+        "slug": "pse",
+        "desc": "text",
+        "image": ""
+    }
+]

@@ -5,7 +5,8 @@ import { NextSeo } from 'next-seo';
 import Head from 'next/head';
 import Script from "next/script";
 import { useRouter } from "next/router";
-
+import university from '../public/university.json'
+import UniversityCard from '../components/UniversityCard'
 
 //END OF IMPORTS
 
@@ -37,7 +38,28 @@ function Home() {
 
 <section id="top">
 
-<h1 className="text-3xl text-center">Title</h1>
+<h1 className="text-3xl text-center my-8">Title</h1>
+
+</section>
+
+
+
+{/* uni */}
+
+<section className="" id="uni">
+
+<div className="container px-8 mb-24 mx-auto bg-gray-100 rounded-lg py-6 ">
+
+<div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
+
+
+{university.map((b, index) => (
+<React.Fragment key={index}>
+<UniversityCard b={b} index={index}/>
+</React.Fragment>))}
+
+</div>
+</div>
 
 </section>
 
