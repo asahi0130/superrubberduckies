@@ -40,8 +40,13 @@ function Quiz() {
 <section id="quiz">
 
   <section id="q1">
-    <div className="bg-gray-400">
-      
+    <div className="bg-gray-200 rounded-lg mx-16 md:mx-64 h-[120px]">
+      <h2>Question 1</h2>
+      <p>Question?</p>
+      <div className="flex justify-center gap-x-8">
+      <button className=" bg-white textColor py-4 px-10 text-lg">Yes</button>
+      <button className=" bg-white textColor py-4 px-10 text-lg">No</button>
+      </div>
     </div>
   </section>
 
