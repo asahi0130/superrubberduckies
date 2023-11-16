@@ -2,14 +2,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Shippori+Mincho&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans&family=Sigmar+One&display=swap');
 
 
 
 :root{
 --text: #4e4e4e;
+
+--themeyellow: #ffd602;
+--themedarkblue: #110d2c;
+--themeblue: #121272;
+--themered: #720000;
+--themeteal: #007272;
 
 
 --primaryBg: #2F3061;
@@ -19,11 +23,23 @@
 --secondaryBorder: #554d81;
 }
 
-.textColor{
-  color: var(--text)
+
+.giga{ 
+  background-color: #58566b;
+}
+.pearl{ 
+  background-color: #110d2b;
+}
+.sils{ 
+  background-color: #943c3b;
+}
+.pse{ 
+  background-color: #740000;
 }
 
-
+.textColor{
+  color: var(--themeblue)
+}
 
 .primaryBg{
   background-color: var(--primaryBg);
@@ -47,18 +63,23 @@
 
 html{
 min-height:100vh;
-/* background-image: linear-gradient(to bottom, #1F1F29, #222260,#15264D); */
-/* background-color: #DFE2E6; */
 scroll-behavior: smooth;
 color: var(--text);
-font-family: 'Montserrat', sans-serif;
 font-weight: 400;
 background-attachment: fixed;
 overflow-x: hidden;
 max-width: 100%;
 width: 100%;
+font-family: 'Merriweather Sans', sans-serif;
 }
 
+.titlefont{
+font-family: 'Sigmar One', sans-serif;
+}
+
+.quizfont{
+font-family: 'Lato', sans-serif;
+}
 
 
 .wrap { overflow-wrap: break-word;

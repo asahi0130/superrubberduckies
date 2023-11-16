@@ -27,7 +27,9 @@ function Home() {
     <section className=" overflow-x-hidden overflow-y-hidden">
 
 
-
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans&family=Sigmar+One&display=swap" rel="stylesheet"></link>
 
 <NextSeo title={title}description={description}/>
 <Toaster position="bottom-right" />
@@ -37,7 +39,7 @@ function Home() {
 
 <section id="top">
 
-<h1 className="text-3xl text-center my-8">Title</h1>
+<h1 className="md:text-5xl text-3xl text-center my-8 titlefont textColor">English College Picker</h1>
 
 </section>
 
@@ -47,7 +49,7 @@ function Home() {
 
 <section className="" id="uni">
 
-<div className="container px-8 mb-24 mx-auto bg-gray-200 rounded-lg py-6 ">
+<div className="container px-8 mb-24 mx-auto  rounded-lg py-6 ">
 
 <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
 
