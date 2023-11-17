@@ -24,7 +24,7 @@ function Home() {
 
 
 
-    <section className=" overflow-x-hidden overflow-y-hidden">
+    <section className="  overflow-x-hidden overflow-y-hidden">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -51,7 +51,7 @@ function Home() {
 
 <div className="container px-8 mb-24 mx-auto  rounded-lg py-6 ">
 
-<div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
+<div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-4 gap-x-12">
 
 
 {university.map((b, index) => (

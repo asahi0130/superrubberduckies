@@ -37,18 +37,47 @@ function Quiz() {
 {/* Quiz */}
 
 
-<section id="quiz">
+<section id="quiz" className="">
 
-  <section id="q1">
-    <div className="bg-gray-200 rounded-lg mx-16 md:mx-64 h-[120px]">
-      <h2>Question 1</h2>
-      <p>Question?</p>
-      <div className="flex justify-center gap-x-8">
-      <button className=" bg-white textColor py-4 px-10 text-lg">Yes</button>
-      <button className=" bg-white textColor py-4 px-10 text-lg">No</button>
+  <section className="my-24" id="q1">
+    <div className="relative bg-gray-200 rounded-lg mx-16 md:mx-36 lg:mx-72 textColor pt-16 pb-8">
+      <h2 className="text-6xl absolute z-40 -top-4 ml-4 font-extrabold">1</h2>
+<span className="absolute top-2 text-4xl">____</span>
+      <p className="ml-8 text-lg">Are you more of a city person or out-skirt person?</p>
+      <div className="mt-4 flex justify-center gap-x-8">
+      <button className=" bg-white textColor py-4 px-10 text-lg hover:bg-gray-100 active:opacity-80">Yes</button>
+      <button className=" bg-white textColor py-4 px-10 text-lg hover:bg-gray-100 active:opacity-80">No</button>
       </div>
     </div>
   </section>
+
+  <section className="my-24" id="q2">
+    <div className="relative bg-gray-200 rounded-lg mx-16 md:mx-36 lg:mx-72 textColor pt-16 pb-8">
+      <h2 className="text-6xl absolute z-40 -top-4 ml-4 font-extrabold">2</h2>
+<span className="absolute top-2 text-4xl">____</span>
+      <p className="ml-8 text-lg">Are you more of a city person or out-skirt person?</p>
+      <div className="mt-4 flex justify-center gap-x-8">
+      <button className=" bg-white textColor py-4 px-10 text-lg hover:bg-gray-100 active:opacity-80">Yes</button>
+      <button className=" bg-white textColor py-4 px-10 text-lg hover:bg-gray-100 active:opacity-80">No</button>
+      </div>
+    </div>
+  </section>
+
+
+
+
+{/* RESULT */}
+
+<section className="my-24" id="result">
+    <div className="relative bg-gray-200 rounded-lg mx-16 md:mx-36 lg:mx-72 textColor pt-16 pb-8">
+      <h2 className="text-7xl absolute z-40 -top-8 ml-4 font-extrabold left-1/2 transform -translate-x-1/2">Results</h2>
+<span className="absolute top-2 text-4xl left-1/2 transform -translate-x-1/2">_____</span>
+      <p className="ml-8 text-lg">result...</p>
+
+    </div>
+  </section>
+
+
 
 </section>
 

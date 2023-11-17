@@ -36,7 +36,7 @@ const navigateAndScroll = (path, id) => {
 
     return(<>
 
-<nav className={`transition-all border-gray-200 pl-1 sm:px-4 pt-4 headerColor`}>
+<nav className={`transition-all border-gray-200 pl-1 sm:px-4 pt-4 headerColor shadow-md pb-4`}>
 <div className=" flex flex-wrap justify-between items-center mx-4 md:mx-24 md:mr-0">
 
 
