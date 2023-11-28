@@ -78,7 +78,7 @@ function Home() {
 </div>
 
 
-<div className="textColor grid grid-col-1 md:grid-cols-2 gap-y-8 gap-x-4 md:gap-x-12 mx-4 md:mx-12 lg:mx-24">
+<div className="textColor grid grid-col-1 `md:grid-cols-2 gap-y-8 gap-x-4 md:gap-x-12 mx-4 md:mx-12 lg:mx-24">
 <div className="bg-white text-center rounded-xl px-4 py-12 text-2xl">
   GIGA
 </div>

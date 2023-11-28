@@ -39,9 +39,14 @@ const navigateAndScroll = (path, id) => {
 <nav className={`transition-all border-gray-200 pl-1 sm:px-4 pt-4 headerColor shadow-md pb-4`}>
 <div className=" flex flex-wrap justify-between items-center mx-4 md:mx-24 md:mr-0">
 
+<Link href="/" className="flex items-center">
 
+    <img src="/images/placeholder.jpeg" className="mr-3 h-6 sm:h-9" alt="Logo" />
+    <span className="self-center text-lg font-semibold whitespace-nowrap textColor">
+    English College Picker
+    </span>
 
-
+  </Link>
 
 
 

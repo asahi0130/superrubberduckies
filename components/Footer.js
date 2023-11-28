@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <section className=''>
     
-<footer className="bg-white rounded-lg shadow-inner ">
+<footer className="bg-[#e7ecff] rounded-lg shadow-inner ">
     <div className="w-full container mx-auto p-4 md:px-6 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
             <a href="/" className="flex items-center mb-4 sm:mb-0 ">
