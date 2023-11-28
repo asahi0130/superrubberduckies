@@ -63,6 +63,12 @@ function Home() {
 </div>
 </section>
 
+
+{/* 
+<hr className="h-px my-16 bg-gray-300 mx-16 border-0" />
+<img src="/images/keio.png" />
+<img src="/images/waseda.png" /> */}
+
 <hr className="h-px my-16 bg-gray-300 mx-16 border-0" />
 
 
