@@ -14,14 +14,20 @@ const Footer = () => {
             </a>
             <ul className="flex flex-wrap items-center mb-6 text-sm text-gray-700 sm:mb-0 ">
                 <li>
-                    <a target="_blank" rel="noreferrer" href="/" className="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+                    <a target="_self" rel="noreferrer" href="/policy" className="mr-4 hover:underline md:mr-6">Privacy Policy</a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noreferrer" href="/" className="mr-4 hover:underline md:mr-6 ">Terms</a>
+                    <a target="_self" rel="noreferrer" href="/terms" className="mr-4 hover:underline md:mr-6 ">Terms</a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noreferrer" href="/" className="hover:underline">Contact</a>
+                    <a target="_self" rel="noreferrer" href="/sitemap" className="hover:underline md:mr-6">Sitemap</a>
                 </li>
+                
+                <li>
+                <a target="_self" rel="noreferrer" href="/contact" className="mr-4 hover:underline  ">Contact</a>
+
+                </li>
+
             </ul>
         </div>
         <hr className="my-6 border-gray-800 sm:mx-auto  lg:my-8" />
