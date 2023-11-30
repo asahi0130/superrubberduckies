@@ -2,6 +2,8 @@
     {
         "title": "Keio GIGA",
         "school": "Keio University",
+        "schoolshort": "Keio",
+        "program" : "GIGA",
         "slug": "giga",
         "fullname": "Global Information and Governance Academic Programme",
         "desc": "text",
@@ -13,6 +15,8 @@
     {
         "title": "Keio Pearl",
         "school": "Keio University",
+        "schoolshort": "Keio",
+        "program" : "PEARL",
         "slug": "pearl",
         "fullname": "Programme in Economics for Alliances, Research and Leadership",
         "desc": "text",
@@ -24,6 +28,8 @@
     {
         "title": "Waseda SILS",
         "school": "Waseda University",
+        "schoolshort": "Waseda",
+        "program" : "SILS",
         "slug": "sils",
         "fullname": "School of International Liberal Studies",
         "desc": "text",
@@ -35,6 +41,8 @@
     {
         "title": "Waseda PSE",
         "school": "Waseda University",
+        "schoolshort": "Waseda",
+        "program" : "PSE",
         "slug": "pse",
         "fullname": "School of Political Science and Economics",
         "desc": "text",
