@@ -48,10 +48,14 @@ function Home() {
 {/* uni */}
 
 <section className="" id="uni">
-<div className="flex flex-row absolute">
-<img className="left-0" height={128} width={128} src="/images/keio.png" />
-<img className="right-0" height={128} width={128} src="/images/waseda.png" /> 
+
+
+<div className="flex flex-row relative">
+<img className="absolute -left-16" height={128} width={128} src="/images/keio.png" />
+<img className="absolute -right-16" height={128} width={128} src="/images/waseda.png" /> 
 </div>
+
+
 <div className="container px-24 mb-24 mx-auto  rounded-lg py-6 ">
 
 
