@@ -31,7 +31,7 @@ function Home() {
 <link rel="preconnect" href="https://fonts.gstatic.com" />
 <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans&family=Sigmar+One&display=swap" rel="stylesheet"></link>
 
-<NextSeo title={title}description={description}/>
+{/* <NextSeo title={title}description={description}/> */}
 <Toaster position="bottom-right" />
 
 

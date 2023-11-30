@@ -10,7 +10,9 @@ const UniversityPage = ({ university }) => {
   return (
     <>
     <section id="top">
-<h1 className='text-xl text-center my-8' >{university.title}</h1>
+    <h2 className='text-xl text-center my-8' >{university.school}</h2>
+
+<h1 className='text-xl text-center my-8' >{university.fullname}</h1>
     </section>
     </>
   );

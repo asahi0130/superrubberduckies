@@ -50,8 +50,6 @@ function checkCompleted(){
 
 
 {/* Quiz */}
-
-
 <section id="quiz" className="">
 
   <section className="my-24" id="q1">
@@ -131,6 +129,12 @@ function checkCompleted(){
 
 
 </section>
+
+
+    
+
+
+
 
 
     

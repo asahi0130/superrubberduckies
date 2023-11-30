@@ -1,7 +1,9 @@
 [
     {
         "title": "Keio GIGA",
+        "school": "Keio University",
         "slug": "giga",
+        "fullname": "Global Information and Governance Academic Programme",
         "desc": "text",
         "rank": {
         "tuition" : "1", 
@@ -10,7 +12,9 @@
     },
     {
         "title": "Keio Pearl",
+        "school": "Keio University",
         "slug": "pearl",
+        "fullname": "Programme in Economics for Alliances, Research and Leadership",
         "desc": "text",
         "rank": {
         "tuition" : "1", 
@@ -19,7 +23,9 @@
     },
     {
         "title": "Waseda SILS",
+        "school": "Waseda University",
         "slug": "sils",
+        "fullname": "School of International Liberal Studies",
         "desc": "text",
         "rank": {
         "tuition" : "1", 
@@ -28,7 +34,9 @@
     },
     {
         "title": "Waseda PSE",
+        "school": "Waseda University",
         "slug": "pse",
+        "fullname": "School of Political Science and Economics",
         "desc": "text",
         "rank": {
         "tuition" : "1", 
