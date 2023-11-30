@@ -88,7 +88,7 @@ function Home() {
 <div className="textColor  flex flex-row gap-x-4 text-center justify-between mx-4 md:mx-12 mb-16">
 <button className="bg-gray-200 text-sm md:text-xl py-2 hover:bg-gray-300 active:opacity-80 w-full rounded-lg">City Life</button>
 <button className="bg-gray-200 text-sm md:text-xl py-2 hover:bg-gray-300 active:opacity-80 w-full rounded-lg">Research</button>
-<button className="bg-gray-200 text-sm md:text-xl py-2 hover:bg-gray-300 active:opacity-80 w-full rounded-lg">Research</button>
+<button className="bg-gray-200 text-sm md:text-xl py-2 hover:bg-gray-300 active:opacity-80 w-full rounded-lg">Diversity</button>
 </div>
 
 
