@@ -69,10 +69,10 @@ background-attachment: fixed;
 overflow-x: hidden;
 max-width: 100%;
 width: 100%;
-font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
-.titlefont{
+.robotoFont{
   font-family: 'Roboto', sans-serif;
 }
 

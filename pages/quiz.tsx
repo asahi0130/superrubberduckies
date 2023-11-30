@@ -42,8 +42,8 @@ function checkCompleted(){
 
 <section id="top">
 
-{/* <h1 className="text-xl text-center my-8 titlefont textColor">English College Picker</h1> */}
-<h1 className="md:text-3xl text-3xl text-center my-8 titlefont textColor">QUIZ - College Match Test</h1>
+{/* <h1 className="text-xl text-center my-8 robotoFont textColor">English College Picker</h1> */}
+<h1 className="md:text-3xl text-3xl text-center my-8 robotoFont textColor">QUIZ - College Match Test</h1>
 
 </section>
 
