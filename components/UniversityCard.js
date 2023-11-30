@@ -18,7 +18,7 @@ function UniversityCard({b, index}){
 <Link key={index.toString()} href={`/university/${b.slug}`} >
 
 {/*  */}
-  <div className={`relative ${b.slug}  shadow-xl rounded-lg p-4 h-[225px] w-full hover:opacity-80  transition-all`}> 
+  <div className={`relative ${b.slug}  shadow-xl rounded-lg p-4 h-[200px] w-7/8 m-auto hover:opacity-80  transition-all`}> 
 
     {/* <div className="border-gray-400 border-2 block relative h-48 rounded overflow-hidden">
       <img

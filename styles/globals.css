@@ -2,8 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans&family=Sigmar+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans&family=Roboto&family=Sigmar+One&display=swap');
 
 
 :root{
@@ -74,7 +73,7 @@ font-family: 'Merriweather Sans', sans-serif;
 }
 
 .titlefont{
-font-family: 'Sigmar One', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .quizfont{

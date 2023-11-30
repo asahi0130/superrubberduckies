@@ -48,10 +48,14 @@ function Home() {
 {/* uni */}
 
 <section className="" id="uni">
+<div className="flex flex-row absolute">
+<img className="left-0" height={128} width={128} src="/images/keio.png" />
+<img className="right-0" height={128} width={128} src="/images/waseda.png" /> 
+</div>
+<div className="container px-24 mb-24 mx-auto  rounded-lg py-6 ">
 
-<div className="container px-8 mb-24 mx-auto  rounded-lg py-6 ">
 
-<div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-4 gap-x-12">
+<div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-4 gap-x-8">
 
 
 {university.map((b, index) => (
