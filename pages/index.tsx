@@ -39,7 +39,7 @@ function Home() {
 
 <section className="mb-56" id="top">
 
-<h1 className="md:text-5xl text-3xl text-center  robotoFont textColor lg:my-24 md:my-16 my-8 ">English College Picker</h1>
+<h1 className="md:text-5xl text-3xl text-center  robotoFont textColor lg:mb-24 md:my-16 my-10 ">English College Picker</h1>
 
 <section className="" id="uni">
 
