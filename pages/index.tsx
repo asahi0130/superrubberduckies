@@ -52,7 +52,7 @@ function Home() {
 
 <div className="flex flex-row relative">
 <img className="absolute -left-16" height={128} width={128} src="/images/keio.png" />
-<img className="absolute -right-16" height={128} width={128} src="/images/waseda.png" /> 
+<img className="absolute -right-16 top-96 md:top-64 lg:top-0" height={128} width={128} src="/images/waseda.png" /> 
 </div>
 
 
