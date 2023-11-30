@@ -12,7 +12,7 @@ const Footer = () => {
                 {/* <img src="/images/LogoHeader.png" className="h-12 mr-3" alt="Logo" /> */}
                 <span className="self-center text-md font-semibold whitespace-nowrap ">English College Picker</span>
             </a>
-            <ul className="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 ">
+            <ul className="flex flex-wrap items-center mb-6 text-sm text-gray-700 sm:mb-0 ">
                 <li>
                     <a target="_blank" rel="noreferrer" href="/" className="mr-4 hover:underline md:mr-6">Privacy Policy</a>
                 </li>
@@ -25,7 +25,7 @@ const Footer = () => {
             </ul>
         </div>
         <hr className="my-6 border-gray-800 sm:mx-auto  lg:my-8" />
-        <span className="block text-sm text-gray-500 sm:text-center ">© 2023 <a href="#" className="hover:underline">SUPERRUBBERDUCKIES</a>. All Rights Reserved.</span>
+        <span className="block text-sm text-gray-700 sm:text-center ">© 2023 <a href="#" className="hover:underline">SUPERRUBBERDUCKIES</a>. All Rights Reserved.</span>
     </div>
 </footer>
 
