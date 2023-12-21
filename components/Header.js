@@ -123,7 +123,7 @@ const navigateAndScroll = (path, id) => {
     className={`${active ? "" : "hidden "}md:py-0 py-4  w-full md:block md:w-auto`}
     id="mobile-menu4"
   >
-          <button onClick={() => navigateAndScroll("quiz/", "")}  className="textColor border-b md:border-none w-full justify-center flex  items-center text-center hover:opacity-80 active:opacity-60 active:scale-105 transition-all">
+          <button onClick={() => navigateAndScroll("/quiz/", "")}  className="textColor border-b md:border-none w-full justify-center flex  items-center text-center hover:opacity-80 active:opacity-60 active:scale-105 transition-all">
           Quiz
           </button>
           </div>

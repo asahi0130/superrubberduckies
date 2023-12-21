@@ -6,10 +6,13 @@ import Script from "next/script";
 import { useRouter } from "next/router";
 import university from '../public/university.json'
 import UniversityCard from '../components/UniversityCard'
+import QuizResult from '../components/QuizResult'
 
 //END OF IMPORTS
 
 function Quiz() {
+
+const [result, setResult] = useState<any>("sils")
 
 const [answer1, setAnswer1] = useState<any>(null)
 const [answer2, setAnswer2] = useState<any>(null)
@@ -117,12 +120,14 @@ function checkCompleted(){
 
 {/* RESULT */}
 
-<section className="my-24" id="result">
-    <div className="relative bg-[#d9d9d9] rounded-lg mx-16 md:mx-36 lg:mx-72 textColor pt-16 pb-8">
+<section className="my-24 z-" id="result">
+    <div className="relative z-40 bg-[#d9d9d9] rounded-lg mx-16 md:mx-36 lg:mx-72 textColor pt-16 pb-8">
       <h2 className="text-7xl absolute z-40 -top-8 ml-4 font-extrabold left-1/2 transform -translate-x-1/2">Results</h2>
 <span className="absolute top-2 text-4xl left-1/2 transform -translate-x-1/2">_____</span>
-      <p className="mx-8 text-lg">{checkCompleted() ? ('Quiz completed') : ('Please finish the quiz')}</p>
-
+     
+{checkCompleted() ? (  <QuizResult b={result}/>) : (<p className="mx-8 text-lg">Please finish the quiz</p>)}
+      
+    
     </div>
   </section>
 
