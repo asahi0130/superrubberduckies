@@ -12,7 +12,7 @@ import QuizResult from '../components/QuizResult'
 
 function Quiz() {
 
-const [result, setResult] = useState<any>("sils")
+const [result, setResult] = useState<any>("giga")
 
 const [answer1, setAnswer1] = useState<any>(null)
 const [answer2, setAnswer2] = useState<any>(null)

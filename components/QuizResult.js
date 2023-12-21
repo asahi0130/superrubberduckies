@@ -42,13 +42,9 @@ useEffect(() => {
 <React.Fragment>
 
 
-<div className='pt-8 pb-16 mx-8 px-6 rounded-lg shadow-xl bg-[#8B3232] text-white text-2xl'>
+<div className={`relative z-[-2] pt-8 pb-16 mx-8 px-6 rounded-lg shadow-xl  text-white text-2xl ${school == "waseda" ? ('bg-[#8B3232]') : ('bg-[#f1c500d3]')}`}>
 
-<div className='z-10  absolute right-0 top-16 '>
-<img height={275} width={275} src="/images/waseda.png" />
-
-</div>
-
+<div className=''>
 
   <p className='mb-4'>{school}</p>
   <li className='mb-16'>
@@ -62,6 +58,14 @@ useEffect(() => {
   </Link>
 </div>
 
+
+<div className=' '>
+<img className={"absolute right-0 top-0 z-[-1]"} height={216} width={216} src={`${school == "waseda" ? ("/images/waseda-crop.png") : ("/images/keio-crop.png")}`} />
+</div>
+
+
+
+</div>
 
 
   </React.Fragment>
