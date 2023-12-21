@@ -18,7 +18,7 @@ export default function Header() {
 
 
 function notLoading(e){
-    e.target.src="/profile_placeholder.jpeg"
+    e.target.src="/icon.png"
 }
 
 
@@ -41,7 +41,7 @@ const navigateAndScroll = (path, id) => {
 
 <Link href="/" className="flex items-center">
 
-    <img src="/images/placeholder.jpeg" className="mr-3 h-6 sm:h-9" alt="Logo" />
+    <img src="/images/icon.png" className="mr-3 h-6 sm:h-9" alt="Logo" />
     <span className="self-center text-lg font-semibold whitespace-nowrap textColor">
     English College Picker
     </span>

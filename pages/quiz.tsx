@@ -12,13 +12,28 @@ import QuizResult from '../components/QuizResult'
 
 function Quiz() {
 
-const [result, setResult] = useState<any>("giga")
+
+
+
+const [result, setResult] = useState<any>("")
 
 const [answer1, setAnswer1] = useState<any>(null)
 const [answer2, setAnswer2] = useState<any>(null)
 const [answer3, setAnswer3] = useState<any>(null)
 const [answer4, setAnswer4] = useState<any>(null)
 const [answer5, setAnswer5] = useState<any>(null)
+
+
+useEffect(() => {
+if (answer4 == true){
+  setResult("giga")
+} else{
+  // ..
+}
+
+
+},[answer1,answer2,answer3,answer4,answer5])
+
 
 function checkCompleted(){
 
@@ -61,8 +76,8 @@ function checkCompleted(){
 <span className="absolute top-2 text-4xl">____</span>
       <p className="mx-8 text-lg">Are you more of a city person or out-skirt person?</p>
       <div className="mt-4 flex justify-center gap-x-8">
-      <button onClick={() => setAnswer1(true)} className={` ${answer1 == true ? ('bg-[#e7ecff]') : ('bg-white')} textColor py-4 px-10 text-lg hover:opacity-80 active:opacity-70`}>Yes</button>
-      <button onClick={() => setAnswer1(false)} className={` ${answer1 == false ? ('bg-[#e7ecff]') : ('bg-white')} textColor py-4 px-10 text-lg hover:opacity-80 active:opacity-70`}>No</button>
+      <button onClick={() => setAnswer1(true)} className={` ${answer1 == true ? ('bg-[#e7ecff]') : ('bg-white')} textColor py-4 px-10 text-lg hover:opacity-80 active:opacity-70`}>City</button>
+      <button onClick={() => setAnswer1(false)} className={` ${answer1 == false ? ('bg-[#e7ecff]') : ('bg-white')} textColor py-4 px-10 text-lg hover:opacity-80 active:opacity-70`}>Out-skirt</button>
       </div>
     </div>
   </section>
@@ -73,8 +88,8 @@ function checkCompleted(){
 <span className="absolute top-2 text-4xl">____</span>
       <p className="mx-8 text-lg">How international do you want to be in university?</p>
       <div className="mt-4 flex justify-center gap-x-8">
-      <button onClick={() => setAnswer2(true)} className={` ${answer2 == true ? ('bg-[#e7ecff]') : ('bg-white')} textColor py-4 px-10 text-lg hover:opacity-80 active:opacity-70`}>Yes</button>
-      <button onClick={() => setAnswer2(false)} className={` ${answer2 == false ? ('bg-[#e7ecff]') : ('bg-white')} textColor py-4 px-10 text-lg hover:opacity-80 active:opacity-70`}>No</button>
+      <button onClick={() => setAnswer2(true)} className={` ${answer2 == true ? ('bg-[#e7ecff]') : ('bg-white')} textColor py-4 px-10 text-lg hover:opacity-80 active:opacity-70`}>Extensive</button>
+      <button onClick={() => setAnswer2(false)} className={` ${answer2 == false ? ('bg-[#e7ecff]') : ('bg-white')} textColor py-4 px-10 text-lg hover:opacity-80 active:opacity-70`}>Limited</button>
       </div>
     </div>
   </section>
@@ -95,7 +110,7 @@ function checkCompleted(){
     <div className="relative bg-[#d9d9d9] rounded-lg mx-16 md:mx-36 lg:mx-72 textColor pt-16 pb-8">
       <h2 className="text-6xl absolute z-40 -top-4 ml-4 font-extrabold">4</h2>
 <span className="absolute top-2 text-4xl">____</span>
-      <p className="mx-8 text-lg">Do you rather go into the city or chill on a beach?</p>
+      <p className="mx-8 text-lg">Do you want to start your own business?</p>
       <div className="mt-4 flex justify-center gap-x-8">
       <button onClick={() => setAnswer4(true)} className={` ${answer4 == true ? ('bg-[#e7ecff]') : ('bg-white')} textColor py-4 px-10 text-lg hover:opacity-80 active:opacity-70`}>Yes</button>
       <button onClick={() => setAnswer4(false)} className={` ${answer4 == false ? ('bg-[#e7ecff]') : ('bg-white')} textColor py-4 px-10 text-lg hover:opacity-80 active:opacity-70`}>No</button>
