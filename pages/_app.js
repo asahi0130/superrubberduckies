@@ -25,9 +25,9 @@ function MyApp({ Component, pageProps }) {
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico"/>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" />
-<NextSeo title={"English College Picker"} description={"This website helps students decide which college suits them the best."}/>
 
 </Head>
+<NextSeo title={"English College Picker"} description={"This website helps students decide which college suits them the best."}/>
 
 <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans&family=Roboto&family=Sigmar+One&display=swap" rel="stylesheet"></link>
     
