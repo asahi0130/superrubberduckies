@@ -17,6 +17,17 @@ function Home() {
 
 
 
+  const rankingTuition = {rank: ["PSE(Waseda)", "PEARL(Keio)", "GIGA(Keio)", "SILS(Waseda)"], name:"Tuition"}
+
+  const rankingInternational = {rank: ["GIGA(Keio)", "SILS(Waseda)", "PEARL(Keio)", "PSE(Waseda)"], name:"International Students"}
+  
+  const rankingAcceptance = {rank: ["PSE(Waseda)", "SILS(Waseda)", "PEARL(Keio)", "GIGA(Keio)"], name:"Acceptance Rate"}
+
+  const rankingAcademic = {rank: ["GIGA(Keio)", "PEARL(Keio)", "SILS(Waseda)", "PSE(Waseda)"], name:"Academic"}
+
+
+  const [ranking, setRanking] = useState<any>(rankingTuition)
+
 
   // START HERE
   return (
@@ -116,7 +127,109 @@ function Home() {
     
 
 
+
+{/* container */}
+<div className="flex flex-col md:flex-row md:justify-evenly ">
+{/* ranking */}
+  <section className="md:w-1/2 lg:w-1/4 justify-between mb-12 md:mb-0" id="ranking">
+<h2 className="text-center robotoFont textColor text-3xl underline font-semibold mb-4 ">
+RANKING
+</h2>
+<h3 className="text-center robotoFont textColor text-2xl mb-6 ">
+{ranking.name}
+
+</h3>
+<div className="flex flex-row justify-evenly">
+  <div className="flex flex-col">
+<button onClick={() => setRanking(rankingTuition)} className="mb-4 mr-8 robotoFont textColor text-base hover:underline hover:cursor-pointer">TUITION FEE</button>
+<button onClick={() => setRanking(rankingInternational)} className="mb-4 mr-8 robotoFont textColor text-base hover:underline hover:cursor-pointer">INTERNATIONAL STUDENTS</button>
+<button onClick={() => setRanking(rankingAcceptance)} className="mb-4 mr-8 robotoFont textColor text-base hover:underline hover:cursor-pointer">ACCEPTANCE RATE</button>
+<button onClick={() => setRanking(rankingAcademic)} className="mb-4 mr-8 robotoFont textColor text-base hover:underline hover:cursor-pointer">ACADEMIC</button>
+</div>
+
+<div className="flex flex-col">
+{ranking.rank.map((u: any, index: any) => (
+  <div className="flex flex-row">
+    <p className="mb-4 robotoFont textColor text-2xl ">
+    {index+1}.&nbsp;
+    </p>
+    <p className="mb-4 robotoFont textColor text-2xl underline ">
+      {u}
+    </p>
+  </div>
+))}
+</div>
+
+
+</div>
+
+
+  </section>
+
+{/* upcoming events */}
+<section className="md:w-1/2 lg:w-1/4 justify-between mb-12 md:mb-0" id="upcomingevents">
+
+<h2 className="text-center robotoFont textColor text-3xl underline font-semibold mb-10 ">
+UPCOMING EVENTS
+</h2>
+
+
+<div className="flex flex-row justify-evenly">
+
+
+  <div className="flex flex-col">
+
+
+
+<div className="flex flex-row items-center">
+<h4 className="robotoFont textColor text-2xl mb-4 text-left mr-8 font-semibold">GIGA</h4>
+<div className="bg-gray-200 text-left px-8 py-4  w-full">
+  asd
+</div>
+</div>
+
+
+<div className="flex flex-row items-center">
+<h4 className="robotoFont textColor text-2xl mb-4 text-left mr-8 font-semibold">PEARL</h4>
+<div className="bg-gray-200 text-left px-8 py-4  w-full">
+  asd
+</div>
+</div>
+
+<div className="flex flex-row items-center">
+<h4 className="robotoFont textColor text-2xl mb-4 text-left mr-8 font-semibold">SILS</h4>
+<div className="bg-gray-200 text-left px-8 py-4  w-full">
+  asd
+</div>
+</div>
+
+<div className="flex flex-row items-center">
+<h4 className="robotoFont textColor text-2xl mb-4 text-left mr-8 font-semibold">PSE</h4>
+<div className="bg-gray-200 text-left px-8 py-4  w-full">
+  asd
+</div>
+</div>
+
+</div>
+
+
+
+
+</div>
+
+</section>
+</div>
+
+
+
+
+
+
     </section>
+
+
+
+
 
 
   );

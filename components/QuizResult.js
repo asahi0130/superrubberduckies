@@ -34,6 +34,8 @@ useEffect(() => {
     setSchool("Waseda University")
   }
 
+
+
 },[b])
 
 
@@ -42,7 +44,7 @@ useEffect(() => {
 <React.Fragment>
 
 
-<div className={`relative z-[-2] pt-8 pb-16 mx-8 px-6 rounded-lg shadow-xl  text-white text-2xl ${school == "waseda" ? ('bg-[#8B3232]') : ('bg-[#f1c500d3]')}`}>
+<div className={`relative z-[-2] pt-8 pb-16 mx-8 px-6 rounded-lg shadow-xl  text-white text-2xl ${school == "Waseda University" ? ('bg-[#8B3232]') : ('bg-[#f1c500d3]')}`}>
 
 <div className=''>
 
@@ -60,7 +62,7 @@ useEffect(() => {
 
 
 <div className=' '>
-<img className={"absolute right-0 top-0 z-[-1]"} height={216} width={216} src={`${school == "waseda" ? ("/images/waseda-crop.png") : ("/images/keio-crop.png")}`} />
+<img className={"absolute right-0 top-0 z-[-1]"} height={216} width={216} src={`${school == "Waseda University" ? ("/images/waseda-crop.png") : ("/images/keio-crop.png")}`} />
 </div>
 
 

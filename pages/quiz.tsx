@@ -25,12 +25,17 @@ const [answer5, setAnswer5] = useState<any>(null)
 
 
 useEffect(() => {
-if (answer4 == true){
-  setResult("giga")
-} else{
-  // ..
+  if (answer4) {
+    setResult("giga"); // Ideal for entrepreneurial students
+} else if (answer2 == true && answer3 == true && answer5 == true) {
+    setResult("pearl"); // Suitable for students focused on economics and interested in study abroad
+} else if (answer1 == true && answer2 == true && answer3 == false && answer5 == true) {
+    setResult("sils"); // For students interested in liberal arts and studying abroad
+} else if (answer2 == true && answer3 == true) {
+    setResult("pse"); // For students interested in political science and economics
+} else {
+    setResult("giga"); // Default case if none of the conditions are met
 }
-
 
 },[answer1,answer2,answer3,answer4,answer5])
 
