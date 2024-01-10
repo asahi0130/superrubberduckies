@@ -129,7 +129,7 @@ function Home() {
 
 
 {/* container */}
-<div className="flex flex-col md:flex-row md:justify-evenly ">
+<div className="flex flex-col md:flex-row md:justify-evenly gap-x-6 ">
 {/* ranking */}
   <section className="md:w-1/2 lg:w-1/4 justify-between mb-12 md:mb-0" id="ranking">
 <h2 className="text-center robotoFont textColor text-3xl underline font-semibold mb-4 ">
@@ -174,48 +174,49 @@ UPCOMING EVENTS
 </h2>
 
 
-<div className="flex flex-row justify-evenly">
+<div className="flex justify-between">
 
 
   <div className="flex flex-col">
 
-
-
-<div className="flex flex-row items-center">
-<h4 className="robotoFont textColor text-2xl mb-4 text-left mr-8 font-semibold">GIGA</h4>
-<div className="bg-gray-200 text-left px-8 py-4  w-full">
-  asd
+<div className="flex flex-row items-center mb-12  mx-8">
+<h4 className="robotoFont textColor text-2xl mb-4 text-left mr-8 font-semibold ">GIGA</h4>
+<div className="bg-gray-200 text-left px-8 py-4  flex-grow  rounded-xl">
+12/19 Online Admission Due
 </div>
 </div>
 
 
-<div className="flex flex-row items-center">
-<h4 className="robotoFont textColor text-2xl mb-4 text-left mr-8 font-semibold">PEARL</h4>
-<div className="bg-gray-200 text-left px-8 py-4  w-full">
-  asd
+<div className="flex flex-row items-center mb-12  mx-8">
+<h4 className="robotoFont textColor text-2xl mb-4 text-left mr-8 font-semibold ">PEARL</h4>
+<div className="bg-gray-200 text-left px-8 py-4  flex-grow  rounded-xl">
+  ...
 </div>
 </div>
 
-<div className="flex flex-row items-center">
-<h4 className="robotoFont textColor text-2xl mb-4 text-left mr-8 font-semibold">SILS</h4>
-<div className="bg-gray-200 text-left px-8 py-4  w-full">
-  asd
+<div className="flex flex-row items-center mb-12  mx-8">
+<h4 className="robotoFont textColor text-2xl mb-4 text-left mr-8 font-semibold ">SILS</h4>
+<div className="bg-gray-200 text-left px-8 py-4  flex-grow  rounded-xl">
+...
 </div>
 </div>
 
-<div className="flex flex-row items-center">
-<h4 className="robotoFont textColor text-2xl mb-4 text-left mr-8 font-semibold">PSE</h4>
-<div className="bg-gray-200 text-left px-8 py-4  w-full">
-  asd
-</div>
-</div>
+<div className="flex flex-row items-center mb-12  mx-8">
+<h4 className="robotoFont textColor text-2xl mb-4 text-left mr-8 font-semibold ">PSE</h4>
+<div className="bg-gray-200 text-left px-8 py-4  flex-grow  rounded-xl">
+...
 
 </div>
+</div>
+
+</div>
 
 
 
 
 </div>
+
+
 
 </section>
 </div>
