@@ -25,17 +25,56 @@ const [answer5, setAnswer5] = useState<any>(null)
 
 
 useEffect(() => {
-  if (answer4) {
-    setResult("giga"); // Ideal for entrepreneurial students
-} else if (answer2 == true && answer3 == true && answer5 == true) {
-    setResult("pearl"); // Suitable for students focused on economics and interested in study abroad
-} else if (answer1 == true && answer2 == true && answer3 == false && answer5 == true) {
-    setResult("sils"); // For students interested in liberal arts and studying abroad
-} else if (answer2 == true && answer3 == true) {
-    setResult("pse"); // For students interested in political science and economics
-} else {
-    setResult("giga"); // Default case if none of the conditions are met
+// Initialize score for each university
+let scoreGIGA = 0;
+let scorePEARL = 0;
+let scoreSILS = 0;
+let scorePSE = 0;
+
+// Assign points based on answers
+if (answer4) {
+    scoreGIGA += 2; // Entrepreneurial interest strongly suggests GIGA
 }
+
+if (answer2) {
+    scoreGIGA += 1;
+    scorePEARL += 1;
+    scoreSILS += 1;
+    scorePSE += 1; // International focus benefits all programs
+}
+
+if (answer3) {
+    scorePEARL += 2; // Specific major choice suggests PEARL
+    scorePSE += 2; // Specific major choice suggests PSE
+}
+
+if (answer5) {
+    scorePEARL += 1;
+    scoreSILS += 2; // Interest in studying abroad suggests SILS
+}
+
+// City or outskirts preference (assuming city preference is more suited for these programs)
+if (answer1) {
+    scoreSILS += 1;
+    scorePSE += 1;
+}
+
+// Determine the most suitable university program
+let maxScore = Math.max(scoreGIGA, scorePEARL, scoreSILS, scorePSE);
+let result = "Further assessment needed";
+
+if (maxScore === scoreGIGA) {
+    result = "giga";
+} else if (maxScore === scorePEARL) {
+    result = "pearl";
+} else if (maxScore === scoreSILS) {
+    result = "sils";
+} else if (maxScore === scorePSE) {
+    result = "pse";
+}
+
+// Set the final result
+setResult(result);
 
 },[answer1,answer2,answer3,answer4,answer5])
 
