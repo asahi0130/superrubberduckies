@@ -36,7 +36,7 @@ const navigateAndScroll = (path, id) => {
 
     return(<>
 
-<nav className={`transition-all border-gray-200 pl-1 sm:px-4 pt-4 headerColor shadow-md pb-4`}>
+<nav className={`transition-all border-gray-200 pl-1 sm:px-4 pt-4 headerColor  pb-4`}>
 <div className=" flex flex-wrap justify-between items-center mx-4 md:mx-24 md:mr-0">
 
 <Link href="/" className="flex items-center">
@@ -103,7 +103,7 @@ const navigateAndScroll = (path, id) => {
     className={`${active ? "" : "hidden "}md:py-0 py-4  w-full md:block md:w-auto`}
     id="mobile-menu2"
   >
-          <button onClick={() => navigateAndScroll("/", "top")}   className="textColor border-b md:border-none w-full justify-center flex  items-center text-center hover:opacity-80 active:opacity-60 active:scale-105 transition-all">
+          <button onClick={() => navigateAndScroll("/", "top")}   className="textColor border-b md:border-none font-extrabold w-full justify-center flex  items-center text-center hover:opacity-80 active:opacity-60 active:scale-105 transition-all">
           Home
           </button>
           </div>
@@ -113,7 +113,7 @@ const navigateAndScroll = (path, id) => {
     className={`${active ? "" : "hidden "}md:py-0 py-4  w-full md:block md:w-auto`}
     id="mobile-menu3"
   >
-          <button onClick={() => navigateAndScroll("/", "flow")}  className="textColor border-b md:border-none w-full justify-center flex  items-center text-center hover:opacity-80 active:opacity-60 active:scale-105 transition-all">
+          <button onClick={() => navigateAndScroll("/", "flow")}  className="textColor border-b md:border-none font-extrabold w-full justify-center flex  items-center text-center hover:opacity-80 active:opacity-60 active:scale-105 transition-all">
           Programs
           </button>
           </div>
@@ -123,7 +123,7 @@ const navigateAndScroll = (path, id) => {
     className={`${active ? "" : "hidden "}md:py-0 py-4  w-full md:block md:w-auto`}
     id="mobile-menu4"
   >
-          <button onClick={() => navigateAndScroll("/quiz/", "")}  className="textColor border-b md:border-none w-full justify-center flex  items-center text-center hover:opacity-80 active:opacity-60 active:scale-105 transition-all">
+          <button onClick={() => navigateAndScroll("/quiz/", "")}  className="textColor border-b md:border-none font-extrabold w-full justify-center flex  items-center text-center hover:opacity-80 active:opacity-60 active:scale-105 transition-all">
           Quiz
           </button>
           </div>

@@ -40,7 +40,7 @@ function Home() {
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" />
-<link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans&family=Sigmar+One&display=swap" rel="stylesheet"></link>
+<link href='https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans&family=Roboto:wght@400;500;700&family=Sigmar+One&display=swap' rel="stylesheet"></link>
 
 {/* <NextSeo title={title}description={description}/> */}
 <Toaster position="bottom-right" />
@@ -50,7 +50,7 @@ function Home() {
 
 <section className="mb-56" id="top">
 
-<h1 className="md:text-5xl text-3xl text-center  robotoFont textColor lg:mb-24 md:my-16 my-10 ">English College Picker</h1>
+<h1 className="md:text-5xl text-3xl text-center  robotoFont textColor lg:mb-48 md:mt-24 md:mb-32 my-10 ">English College Picker</h1>
 
 <section className="" id="uni">
 

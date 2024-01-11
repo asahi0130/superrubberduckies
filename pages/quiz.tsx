@@ -61,7 +61,7 @@ if (answer1) {
 
 // Determine the most suitable university program
 let maxScore = Math.max(scoreGIGA, scorePEARL, scoreSILS, scorePSE);
-let result = "Further assessment needed";
+let result = "giga";
 
 if (maxScore === scoreGIGA) {
     result = "giga";
