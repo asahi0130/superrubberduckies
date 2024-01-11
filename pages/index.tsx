@@ -50,15 +50,22 @@ function Home() {
 
 <section className="mb-56" id="top">
 
-<h1 className="md:text-5xl text-3xl text-center  robotoFont textColor lg:mb-48 md:mt-24 md:mb-32 my-10 ">English College Picker</h1>
+<h1 className="md:text-8xl text-5xl text-left ml-8 md:ml-32  robotoFont textColor font-bold lg:mb-64 md:mt-24 md:mb-32 mb-10 lg:w-7/12">English College Picker</h1>
+
+<div className="flex flex-row relative">
+<img className="absolute -left-16 bottom-48" height={128} width={128} src="/images/keio.png" />
+<img className="absolute -right-16 bottom-48" height={128} width={128} src="/images/waseda.png" /> 
+</div>
+
 
 <section className="" id="uni">
 
 
-<div className="flex flex-row relative">
+
+{/* <div className="flex flex-row relative">
 <img className="absolute -left-16" height={128} width={128} src="/images/keio.png" />
 <img className="absolute -right-16 top-96 md:top-64 lg:top-0" height={128} width={128} src="/images/waseda.png" /> 
-</div>
+</div> */}
 
 
 <div className="container px-24 mb-24 mx-auto  rounded-lg py-6 ">
@@ -149,7 +156,7 @@ RANKING
 
 <div className="flex flex-col">
 {ranking.rank.map((u: any, index: any) => (
-  <div className="flex flex-row">
+  <div key={index} className="flex flex-row">
     <p className="mb-4 robotoFont textColor text-2xl ">
     {index+1}.&nbsp;
     </p>

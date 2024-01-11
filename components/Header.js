@@ -4,6 +4,15 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 
 export default function Header() {
+const [kheader, setKheader] = useState(false)
+const [wheader, setWheader] = useState(false)
+const [active, setActive] = useState(false);
+
+
+useEffect(() => {
+  setKheader(false)
+  setWheader(false)
+  },[active])
 
 
     const handleClick = () => {
@@ -14,7 +23,6 @@ export default function Header() {
     "block py-2 pr-4 pl-3 textColor bg-blue-500 rounded md:bg-transparent md:text-blue-500 md:p-0";
   const notselected =
     "block py-2 pr-4 pl-3 md:border-0  md:p-0 text-gray-400 md:hover:textColor hover:bg-gray-700 hover:textColor md:hover:bg-transparent border-gray-700";
-  const [active, setActive] = useState(false);
 
 
 function notLoading(e){
@@ -41,7 +49,7 @@ const navigateAndScroll = (path, id) => {
 
 <Link href="/" className="flex items-center">
 
-    <img src="/images/icon.png" className="mr-3 h-6 sm:h-9" alt="Logo" />
+    <img src="/images/icon.png" className="mr-3 h-9 sm:h-12" alt="Logo" />
     <span className="self-center text-lg font-semibold whitespace-nowrap textColor">
     English College Picker
     </span>
@@ -98,32 +106,48 @@ const navigateAndScroll = (path, id) => {
   <ul className={` flex flex-col  md:flex-row w-full md:w-auto md:gap-x-16  `} id="mobile-menu1">
   {/* <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium"> */}
 
-        <li key={"HeaderInfo1"} className={` textColor flex flex-row justify-center items-center gap-x-5 md:mt-0 mt-2 `}>
-                  <div
-    className={`${active ? "" : "hidden "}md:py-0 py-4  w-full md:block md:w-auto`}
-    id="mobile-menu2"
-  >
-          <button onClick={() => navigateAndScroll("/", "top")}   className="textColor border-b md:border-none font-extrabold w-full justify-center flex  items-center text-center hover:opacity-80 active:opacity-60 active:scale-105 transition-all">
-          Home
-          </button>
-          </div>
-        </li>
-        <li key={"HeaderInfo2"} className={` textColor flex flex-row justify-center items-center gap-x-5 md:mt-0  `}>
-                  <div
-    className={`${active ? "" : "hidden "}md:py-0 py-4  w-full md:block md:w-auto`}
-    id="mobile-menu3"
-  >
-          <button onClick={() => navigateAndScroll("/", "flow")}  className="textColor border-b md:border-none font-extrabold w-full justify-center flex  items-center text-center hover:opacity-80 active:opacity-60 active:scale-105 transition-all">
-          Programs
-          </button>
-          </div>
-        </li>
-        <li key={"HeaderInfo3"} className={` textColor flex flex-row justify-center items-center gap-x-5 md:mt-0  `}>
+  <li key={"HeaderInfo1"} className="textColor flex flex-row justify-center items-center gap-x-5 md:mt-0 mt-2 group relative">
+    <div className={`${active ? "" : "hidden "}md:py-0 py-4 w-full md:block md:w-auto`}>
+        <button className=" textColor border-b md:border-none font-extrabold w-full justify-center flex items-center text-center hover:text-[#FFC700] transition-all">
+        &nbsp;&nbsp;&nbsp;{`Keio/慶應`}&nbsp;&nbsp;&nbsp;&nbsp;
+        </button>
+        <div className="md:absolute w-full left-0 mt-2 bg-white shadow-md opacity-0 group-hover:opacity-100 transition-opacity ">
+            <div className="flex flex-col items-stretch">
+                {/* Flyout Menu Items Here */}
+                <a href="/university/giga" className="px-6 py-2 text-base  textColor text-center hover:bg-gray-100">GIGA</a>
+                <a href="/university/pearl" className="px-6 py-2 text-base  textColor text-center hover:bg-gray-100">PEARL</a>
+                {/* Add more menu items as needed */}
+            </div>
+        </div>
+    </div>
+</li>
+
+
+<li key={"HeaderInfo2"} className="textColor flex flex-row justify-center items-center gap-x-5 md:mt-0 relative group">
+    <div className={`${active ? "" : "hidden "}md:py-0 py-4 w-full md:block md:w-auto`}>
+        <button className="textColor border-b md:border-none font-extrabold w-full justify-center flex items-center text-center hover:text-[#800000] transition-all">
+            {`Waseda/早稲田`}
+        </button>
+        <div className="absolute w-full left-0 mt-2 bg-white shadow-md opacity-0 group-hover:opacity-100 transition-opacity">
+            <div className="flex flex-col items-stretch">
+                {/* Flyout Menu Items Here */}
+                <a href="/university/pse" className="px-6 py-2 text-base  textColor text-center hover:bg-gray-100">PSE</a>
+                <a href="/university/sils" className="px-6 py-2 text-base  textColor text-center hover:bg-gray-100">SILS</a>
+                {/* Add more menu items as needed */}
+            </div>
+        </div>
+    </div>
+</li>
+
+
+
+        
+        <li key={"HeaderInfo3"} className={` textColor flex flex-row justify-center items-center gap-x-5 md:mt-0 mt-16 `}>
                   <div
     className={`${active ? "" : "hidden "}md:py-0 py-4  w-full md:block md:w-auto`}
     id="mobile-menu4"
   >
-          <button onClick={() => navigateAndScroll("/quiz/", "")}  className="textColor border-b md:border-none font-extrabold w-full justify-center flex  items-center text-center hover:opacity-80 active:opacity-60 active:scale-105 transition-all">
+          <button onClick={() => navigateAndScroll("/quiz/", "")}  className="text-white bg-[#121272] px-8 py-2 rounded-md border-b md:border-none font-extrabold w-full justify-center flex  items-center text-center hover:opacity-80 active:opacity-60 active:scale-105 transition-all">
           Quiz
           </button>
           </div>

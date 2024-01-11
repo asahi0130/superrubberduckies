@@ -1,7 +1,10 @@
 import { GetServerSideProps } from 'next';
 import fs from 'fs';
 import path from 'path';
-
+import Sils from '../../components/Sils'
+import Giga from '../../components/Giga'
+import Pearl from '../../components/Pearl'
+import Pse from '../../components/Pse'
 
 
 const UniversityPage = ({ university }) => {
@@ -10,9 +13,16 @@ const UniversityPage = ({ university }) => {
   return (
     <>
     <section id="top">
-    <h2 className='text-xl text-center my-8' >{university.school}</h2>
+    {/* <h2 className='text-xl text-center my-8' >{university.school}</h2> */}
 
-<h1 className='text-xl text-center my-8' >{university.fullname}</h1>
+<h1 className={`text-xl text-center my-8 `} >{university.fullname}</h1>
+
+{university.slug == "sils" ? (<Sils></Sils>) : (<></>)}
+{university.slug == "pse" ? (<Pse></Pse>) : (<></>)}
+{university.slug == "giga" ? (<Giga></Giga>) : (<></>)}
+{university.slug == "pearl" ? (<Pearl></Pearl>) : (<></>)}
+
+
     </section>
     </>
   );
