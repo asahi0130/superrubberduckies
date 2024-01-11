@@ -50,11 +50,11 @@ function Home() {
 
 <section className="mb-56" id="top">
 
-<h1 className="md:text-8xl text-5xl text-left ml-8 md:ml-32  robotoFont textColor font-bold lg:mb-64 md:mt-24 md:mb-32 mb-10 lg:w-7/12">English College Picker</h1>
+<h1 className="md:text-8xl text-5xl text-left ml-8 md:ml-32  robotoFont textColor font-bold lg:mb-72 md:mt-24 md:mb-32 mb-10 lg:w-7/12">English College Picker</h1>
 
 <div className="flex flex-row relative">
-<img className="absolute -left-16 bottom-48" height={128} width={128} src="/images/keio.png" />
-<img className="absolute -right-16 bottom-48" height={128} width={128} src="/images/waseda.png" /> 
+<img className="absolute -left-16 md:bottom-48 " height={128} width={128} src="/images/keio.png" />
+<img className="absolute -right-16 md:bottom-48" height={128} width={128} src="/images/waseda.png" /> 
 </div>
 
 
