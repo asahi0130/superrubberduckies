@@ -93,7 +93,7 @@ function checkCompleted(){
   return (
 
 
-<section className=" overflow-x-hidden overflow-y-hidden">
+<section className=" overflow-x-hidden overflow-y-hidden robotoFont">
 
 
 
@@ -112,7 +112,7 @@ function checkCompleted(){
 
 
 {/* Quiz */}
-<section id="quiz" className="">
+<section id="quiz" className="robotoFont">
 
   <section className="my-24" id="q1">
     <div className="relative bg-[#d9d9d9] rounded-lg mx-16 md:mx-36 lg:mx-72 textColor pt-16 pb-8">

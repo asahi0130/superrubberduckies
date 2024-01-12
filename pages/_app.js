@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
 </Head>
 <NextSeo title={"English College Picker"} description={"This website helps students decide which college suits them the best."}/>
 
-<link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans&family=Roboto:wght@400;500;700&family=Sigmar+One&display=swap" rel="stylesheet"></link>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans&family=Roboto:wght@400;500;700&family=Sigmar+One&display=swap&family=Merriweather:wght@400;700&display=swap" rel="stylesheet"></link>
     
 
       <NextNProgress />

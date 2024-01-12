@@ -40,7 +40,7 @@ function Home() {
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" />
-<link href='https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans&family=Roboto:wght@400;500;700&family=Sigmar+One&display=swap' rel="stylesheet"></link>
+<link href='https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans&family=Roboto:wght@400;500;700&family=Sigmar+One&display=swap&family=Merriweather:wght@400;700&display=swap' rel="stylesheet"></link>
 
 {/* <NextSeo title={title}description={description}/> */}
 <Toaster position="bottom-right" />
@@ -50,7 +50,8 @@ function Home() {
 
 <section className="mb-56" id="top">
 
-<h1 className="md:text-8xl text-5xl text-left ml-8 md:ml-32  robotoFont textColor font-bold lg:mb-72 md:mt-24 md:mb-32 mb-32 lg:w-7/12">English College Picker</h1>
+<h1 className="md:text-8xl text-5xl text-center  mx-auto sigfont textColor font-bold lg:mb-72 md:mt-24 md:mb-32 mb-32 lg:w-7/12">English College Picker</h1>
+{/* ml-8 md:ml-32 */}
 
 <div className="flex flex-row relative">
 <img className="absolute -left-16 md:bottom-48 " height={128} width={128} src="/images/keio.png" />

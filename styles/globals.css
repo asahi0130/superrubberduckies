@@ -2,7 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans&family=Roboto:wght@400;500;700&family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans&family=Roboto:wght@400;500;700&family=Sigmar+One&display=swap&family=Merriweather:wght@400;700&display=swap');
 
 
 :root{
@@ -22,6 +22,16 @@
 --secondaryBorder: #554d81;
 }
 
+
+.merrifont{
+  font-family: 'Merriweather', serif;
+
+}
+
+.sigfont{
+  font-family: 'Sigmar One', sans-serif;
+
+}
 
 .giga{ 
   background-color: #58566b;
@@ -69,7 +79,8 @@ background-attachment: fixed;
 overflow-x: hidden;
 max-width: 100%;
 width: 100%;
-font-family: 'Roboto', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
+font-family: 'Merriweather', serif;
 }
 
 .robotoFont{
