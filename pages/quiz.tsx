@@ -7,6 +7,7 @@ import { useRouter } from "next/router";
 import university from '../public/university.json'
 import UniversityCard from '../components/UniversityCard'
 import QuizResult from '../components/QuizResult'
+import 'animate.css';
 
 //END OF IMPORTS
 

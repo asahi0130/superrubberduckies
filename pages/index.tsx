@@ -6,6 +6,8 @@ import Script from "next/script";
 import { useRouter } from "next/router";
 import university from '../public/university.json'
 import UniversityCard from '../components/UniversityCard'
+import 'animate.css';
+
 
 //END OF IMPORTS
 
@@ -58,6 +60,14 @@ function Home() {
 <img className="absolute -right-16 md:bottom-48" height={128} width={128} src="/images/waseda.png" /> 
 </div>
 
+{/* why */}
+<section className="mx-8 ">
+<h2>Why KEIO and WASEDA?</h2>
+<div className="border-2 rounded-lg">
+  <img></img>
+  <p>a</p>
+</div>
+</section>
 
 <section className="" id="uni">
 
@@ -98,136 +108,62 @@ function Home() {
 
 <hr className="h-px my-16 bg-gray-300 mx-16 border-0" />
 
-
-<section id="choice" className="text-white mb-32 ">
-  <div className="pearl mx-16 md:mx-36 lg:mx-72 rounded-2xl  pt-4 pb-12">
-
-<h2 className="text-3xl text-center my-4">Choose By</h2>
-
-<div className="textColor  flex flex-row gap-x-4 text-center justify-between mx-4 md:mx-12 mb-16">
-<button className="bg-gray-200 text-sm md:text-xl py-2 hover:bg-gray-300 active:opacity-80 w-full rounded-lg">City Life</button>
-<button className="bg-gray-200 text-sm md:text-xl py-2 hover:bg-gray-300 active:opacity-80 w-full rounded-lg">Research</button>
-<button className="bg-gray-200 text-sm md:text-xl py-2 hover:bg-gray-300 active:opacity-80 w-full rounded-lg">Diversity</button>
-</div>
-
-
-<div className="textColor grid grid-col-1 `md:grid-cols-2 gap-y-8 gap-x-4 md:gap-x-12 mx-4 md:mx-12 lg:mx-24">
-<div className="bg-white text-center rounded-xl px-4 py-12 text-2xl">
-  GIGA
-</div>
-<div className="bg-white text-center rounded-xl px-4 py-12 text-2xl">
-  SILS
-</div>
-<div className="bg-white text-center rounded-xl px-4 py-12 text-2xl">
-  PEARL
-</div>
-<div className="bg-white text-center rounded-xl px-4 py-12 text-2xl">
-  PSE
-</div>
-
-
-
-</div>
-
-  </div>
-
-</section>
-    
-
-
-
-{/* container */}
-<div className="flex flex-col md:flex-row md:justify-evenly gap-x-6 ">
 {/* ranking */}
-  <section className="md:w-1/2 lg:w-1/4 justify-between mb-12 md:mb-0" id="ranking">
-<h2 className="text-center robotoFont textColor text-3xl underline font-semibold mb-4 ">
-RANKING
-</h2>
-<h3 className="text-center robotoFont textColor text-2xl mb-6 ">
-{ranking.name}
+<section className="">
+  <h2 className="text-[#37447E] text-4xl font-semibold -mb-1 md:ml-16 ml-0 md:text-left text-center">
+  RANKING
+  </h2>
+<div className="bg-[#37447E] px-8 md:px-32">
 
-</h3>
-<div className="flex flex-row justify-evenly">
-  <div className="flex flex-col">
-<button onClick={() => setRanking(rankingTuition)} className="mb-4 mr-8 robotoFont textColor text-base hover:underline hover:cursor-pointer">TUITION FEE</button>
-<button onClick={() => setRanking(rankingInternational)} className="mb-4 mr-8 robotoFont textColor text-base hover:underline hover:cursor-pointer">INTERNATIONAL STUDENTS</button>
-<button onClick={() => setRanking(rankingAcceptance)} className="mb-4 mr-8 robotoFont textColor text-base hover:underline hover:cursor-pointer">ACCEPTANCE RATE</button>
-<button onClick={() => setRanking(rankingAcademic)} className="mb-4 mr-8 robotoFont textColor text-base hover:underline hover:cursor-pointer">ACADEMIC</button>
+{/* buttons */}
+<div className=" py-8 gap-x-4 sm:gap-x-8 md:gap-x-16 lg:gap-x-32 flex flex-row text-white justify-center">
+  <button className="hover:underline font-semibold">Tuition Fee</button>
+  <button className="hover:underline font-semibold">International Students</button>
+  <button className="hover:underline font-semibold">Acceptance Rate</button>
+  <button className="hover:underline font-semibold">Research </button>
 </div>
 
-<div className="flex flex-col">
-{ranking.rank.map((u: any, index: any) => (
-  <div key={index} className="flex flex-row">
-    <p className="mb-4 robotoFont textColor text-2xl ">
-    {index+1}.&nbsp;
-    </p>
-    <p className="mb-4 robotoFont textColor text-2xl underline ">
-      {u}
-    </p>
+
+<div className=" flex flex-col text-white justify-center mt-8">
+<div className="flex flex-row justify-center gap-x-16">
+  <h3 className="text-3xl font-semibold mt-3">1</h3>
+  <div className="bg-white w-96 flex items-center h-full justify-center rounded-lg py-3 ">
+  <p className="text-[#37447E] text-center text-2xl font-semibold ">Keio University GIGA</p>
   </div>
-))}
-</div>
-
-
-</div>
-
-
-  </section>
-
-{/* upcoming events */}
-<section className="md:w-1/2 lg:w-1/4 justify-between mb-12 md:mb-0" id="upcomingevents">
-
-<h2 className="text-center robotoFont textColor text-3xl underline font-semibold mb-10 ">
-UPCOMING EVENTS
-</h2>
-
-
-<div className="flex justify-between">
-
-
-  <div className="flex flex-col">
-
-<div className="flex flex-row items-center mb-12  mx-8">
-<h4 className="robotoFont textColor text-2xl mb-4 text-left mr-8 font-semibold ">GIGA</h4>
-<div className="bg-gray-200 text-left px-8 py-4  flex-grow  rounded-xl">
-12/19 Online Admission Due
 </div>
 </div>
 
 
-<div className="flex flex-row items-center mb-12  mx-8">
-<h4 className="robotoFont textColor text-2xl mb-4 text-left mr-8 font-semibold ">PEARL</h4>
-<div className="bg-gray-200 text-left px-8 py-4  flex-grow  rounded-xl">
-  ...
+
+<div className=" flex flex-col text-white justify-center mt-8">
+<div className="flex flex-row justify-center gap-x-16">
+  <h3 className="text-3xl font-semibold mt-3">1</h3>
+  <div className="bg-white w-96 flex items-center h-full justify-center rounded-lg py-3 ">
+  <p className="text-[#37447E] text-center text-2xl font-semibold ">Keio University GIGA</p>
+  </div>
 </div>
 </div>
 
-<div className="flex flex-row items-center mb-12  mx-8">
-<h4 className="robotoFont textColor text-2xl mb-4 text-left mr-8 font-semibold ">SILS</h4>
-<div className="bg-gray-200 text-left px-8 py-4  flex-grow  rounded-xl">
-...
+
+
+<div className=" flex flex-col text-white justify-center mt-8">
+<div className="flex flex-row justify-center gap-x-16">
+  <h3 className="text-3xl font-semibold mt-3">1</h3>
+  <div className="bg-white w-96 flex items-center h-full justify-center rounded-lg py-3 ">
+  <p className="text-[#37447E] text-center text-2xl font-semibold ">Keio University GIGA</p>
+  </div>
 </div>
 </div>
 
-<div className="flex flex-row items-center mb-12  mx-8">
-<h4 className="robotoFont textColor text-2xl mb-4 text-left mr-8 font-semibold ">PSE</h4>
-<div className="bg-gray-200 text-left px-8 py-4  flex-grow  rounded-xl">
-...
 
-</div>
-</div>
 
-</div>
 
 
 
 
 </div>
-
-
 
 </section>
-</div>
 
 
 

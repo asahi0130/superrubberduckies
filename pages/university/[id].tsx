@@ -5,6 +5,7 @@ import Sils from '../../components/Sils'
 import Giga from '../../components/Giga'
 import Pearl from '../../components/Pearl'
 import Pse from '../../components/Pse'
+import 'animate.css';
 
 
 const UniversityPage = ({ university }) => {

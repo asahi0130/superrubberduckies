@@ -2,6 +2,7 @@ import React, { use, useEffect, useState } from "react";
 import Link from 'next/link'
 import { useRouter } from "next/router";
 import Image from "next/image";
+import 'animate.css';
 
 export default function Header() {
 const [kheader, setKheader] = useState(false)
