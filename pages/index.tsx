@@ -25,7 +25,7 @@ function Home() {
   
   const rankingAcceptance = {rank: ["PSE(Waseda)", "SILS(Waseda)", "PEARL(Keio)", "GIGA(Keio)"], name:"Acceptance Rate"}
 
-  const rankingAcademic = {rank: ["GIGA(Keio)", "PEARL(Keio)", "SILS(Waseda)", "PSE(Waseda)"], name:"Academic"}
+  const rankingResearch = {rank: ["GIGA(Keio)", "PEARL(Keio)", "SILS(Waseda)", "PSE(Waseda)"], name:"Research"}
 
 
   const [ranking, setRanking] = useState<any>(rankingTuition)
@@ -110,25 +110,29 @@ function Home() {
 
 {/* ranking */}
 <section className="">
-  <h2 className="text-[#37447E] text-4xl font-semibold -mb-1 md:ml-16 ml-0 md:text-left text-center">
+  <h2 className="text-[#37447E] text-4xl font-semibold -mb-1 md:ml-32 ml-0 md:text-left text-center">
   RANKING
   </h2>
-<div className="bg-[#37447E] px-8 md:px-32">
+<div className="bg-[#37447E] pb-16 px-8 md:px-32">
+
+
 
 {/* buttons */}
 <div className=" py-8 gap-x-4 sm:gap-x-8 md:gap-x-16 lg:gap-x-32 flex flex-row text-white justify-center">
-  <button className="hover:underline font-semibold">Tuition Fee</button>
-  <button className="hover:underline font-semibold">International Students</button>
-  <button className="hover:underline font-semibold">Acceptance Rate</button>
-  <button className="hover:underline font-semibold">Research </button>
+  <button onClick={() => setRanking(rankingTuition)} className="hover:underline active:opacity-80 font-semibold">Tuition Fee</button>
+  <button onClick={() => setRanking(rankingInternational)} className="hover:underline active:opacity-80 font-semibold">International Students</button>
+  <button onClick={() => setRanking(rankingAcceptance)} className="hover:underline active:opacity-80 font-semibold">Acceptance Rate</button>
+  <button onClick={() => setRanking(rankingResearch)} className="hover:underline active:opacity-80 font-semibold">Research </button>
 </div>
 
 
+<p className="text-white text-center text-3xl">{ranking.name}</p>
+
 <div className=" flex flex-col text-white justify-center mt-8">
-<div className="flex flex-row justify-center gap-x-16">
+<div className="flex flex-row justify-center gap-x-12">
   <h3 className="text-3xl font-semibold mt-3">1</h3>
-  <div className="bg-white w-96 flex items-center h-full justify-center rounded-lg py-3 ">
-  <p className="text-[#37447E] text-center text-2xl font-semibold ">Keio University GIGA</p>
+  <div className="bg-white  flex items-center h-full justify-center rounded-lg py-3 w-96 md:w-[48rem] ">
+  <p className="text-[#37447E] text-center whitespace-nowrap text-2xl font-semibold  ">{ranking.rank[0]}</p>
   </div>
 </div>
 </div>
@@ -136,10 +140,22 @@ function Home() {
 
 
 <div className=" flex flex-col text-white justify-center mt-8">
-<div className="flex flex-row justify-center gap-x-16">
-  <h3 className="text-3xl font-semibold mt-3">1</h3>
-  <div className="bg-white w-96 flex items-center h-full justify-center rounded-lg py-3 ">
-  <p className="text-[#37447E] text-center text-2xl font-semibold ">Keio University GIGA</p>
+<div className="flex flex-row justify-center gap-x-12">
+  <h3 className="text-3xl font-semibold mt-3">2</h3>
+  <div className="bg-white  flex items-center h-full justify-center rounded-lg py-3 w-96 md:w-[48rem] ">
+  <p className="text-[#37447E] text-center whitespace-nowrap text-2xl font-semibold  ">{ranking.rank[1]}</p>
+  </div>
+</div>
+</div>
+
+
+
+
+<div className=" flex flex-col text-white justify-center mt-8">
+<div className="flex flex-row justify-center gap-x-12">
+  <h3 className="text-3xl font-semibold mt-3">3</h3>
+  <div className="bg-white  flex items-center h-full justify-center rounded-lg py-3 w-96 md:w-[48rem] ">
+  <p className="text-[#37447E] text-center whitespace-nowrap text-2xl font-semibold  ">{ranking.rank[2]}</p>
   </div>
 </div>
 </div>
@@ -147,10 +163,10 @@ function Home() {
 
 
 <div className=" flex flex-col text-white justify-center mt-8">
-<div className="flex flex-row justify-center gap-x-16">
-  <h3 className="text-3xl font-semibold mt-3">1</h3>
-  <div className="bg-white w-96 flex items-center h-full justify-center rounded-lg py-3 ">
-  <p className="text-[#37447E] text-center text-2xl font-semibold ">Keio University GIGA</p>
+<div className="flex flex-row justify-center gap-x-12">
+  <h3 className="text-3xl font-semibold mt-3">4</h3>
+  <div className="bg-white  flex items-center h-full justify-center rounded-lg py-3 w-96 md:w-[48rem] ">
+  <p className="text-[#37447E] text-center whitespace-nowrap text-2xl font-semibold  ">{ranking.rank[3]}</p>
   </div>
 </div>
 </div>
