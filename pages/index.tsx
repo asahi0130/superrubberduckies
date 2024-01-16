@@ -50,7 +50,7 @@ function Home() {
 
 {/* top */}
 
-<section className="mb-56" id="top">
+<section className="mb-12" id="top">
 
 {/* <h1 className="md:text-8xl text-5xl text-center  mx-auto sigfont textColor font-bold lg:mb-72 md:mt-24 md:mb-32 mb-32 lg:w-7/12">English College Picker</h1> */}
 {/* ml-8 md:ml-32 */}
@@ -86,14 +86,15 @@ function Home() {
 
 
 
+
 {/* ARROW */}
-<div className="flex justify-center my-6">
+<div className="flex justify-center my-16">
 <img className="justify-center" width={128} height={128} src="/images/arrow.png"></img>
 </div>
 {/* why */}
 <section className="mx-8 md:mx-32 ">
-<h2 className="text-right mt-24 textColor font-semibold text-3xl">Why KEIO and WASEDA?</h2>
-<div className="border-2 rounded-lg flex flex-col md:flex-row p-4">
+<h2 className="text-right mt-24 textColor font-semibold text-3xl italic">Why KEIO and WASEDA?</h2>
+<div className="border-4 border-[#37447E] rounded-lg flex flex-col md:flex-row p-4">
   <div>
 
   <img width={800} height={600} src="/images/placeholder.jpeg">
@@ -123,12 +124,12 @@ function Home() {
 </div> */}
 
 <div className="textColor mt-8">
-<p className="text-center font-semibold text-xl ">About Courses</p>
-<p className="text-center italic" >Press to find out more...</p>
+<p className="text-center font-semibold text-xl mb-2">About Courses</p>
+<p className="text-center italic mb-4" >Press to find out more...</p>
 </div>
 
 
-<div className="container px-24 mb-24 mx-auto  rounded-lg py-6 ">
+<div className="container px-24  mx-auto  rounded-lg py-6 ">
 
 
 <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-4 gap-x-8">
@@ -155,7 +156,7 @@ function Home() {
 <img src="/images/keio.png" />
 <img src="/images/waseda.png" /> */}
 
-<hr className="h-px my-16 bg-gray-300 mx-16 border-0" />
+
 
 {/* ranking */}
 <section className="">

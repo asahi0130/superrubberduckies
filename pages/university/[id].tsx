@@ -16,7 +16,7 @@ const UniversityPage = ({ university }) => {
     <section id="top">
     {/* <h2 className='text-xl text-center my-8' >{university.school}</h2> */}
 
-<h1 className={`text-xl text-center my-8 `} >{university.fullname}</h1>
+
 
 {university.slug == "sils" ? (<Sils></Sils>) : (<></>)}
 {university.slug == "pse" ? (<Pse></Pse>) : (<></>)}

@@ -17,9 +17,11 @@ function Sils(){
 <React.Fragment>
 
 
-<div>
+<div className='text-[#800000] md:mt-16 mx-8 md:mx-48'>
+<h1 className='text-3xl font-semibold whitespace-nowrap'>Waseda University</h1>
+<h2 className='text-xl font-semibold whitespace-nowrap'>School of International Liberal Arts</h2>
 
-siils
+<img className="rounded-2xl" src="/images/sils.jpg"></img>
 
 </div>
 
