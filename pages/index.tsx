@@ -83,12 +83,30 @@ function Home() {
 <img className="absolute -right-16 md:bottom-72 bottom-[42  rem]" height={128} width={128} src="/images/waseda.png" /> 
 </div>
 
+
+
+{/* ARROW */}
+
 {/* why */}
-<section className="mx-8 ">
-<h2>Why KEIO and WASEDA?</h2>
-<div className="border-2 rounded-lg">
-  <img></img>
-  <p>a</p>
+<section className="mx-8 md:mx-32 ">
+<h2 className="text-right mt-24 textColor font-semibold text-3xl">Why KEIO and WASEDA?</h2>
+<div className="border-2 rounded-lg flex flex-col md:flex-row p-4">
+  <div>
+
+  <img width={800} height={600} src="/images/placeholder.jpeg">
+</img>
+
+  </div>
+
+
+<div>
+
+
+<p className="textColor text-center text-lg">KEIO and WASEDA Universities are two top prestigious private universities in Japan. Not only it offers fully-English programs with opportunities to master N1 of Japanese Linguistic Proficiency Test, but also ranked top 10 academically in Japan. Both has strength in industry, with an impressive alumni networks both nationally and internationally.</p>
+
+
+
+</div>
 </div>
 </section>
 
