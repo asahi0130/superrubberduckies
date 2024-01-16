@@ -119,6 +119,11 @@ function Home() {
 <img className="absolute -right-16 top-96 md:top-64 lg:top-0" height={128} width={128} src="/images/waseda.png" /> 
 </div> */}
 
+<div className="textColor mt-8">
+<p className="text-center font-semibold text-xl ">About Courses</p>
+<p className="text-center italic" >Press to find out more...</p>
+</div>
+
 
 <div className="container px-24 mb-24 mx-auto  rounded-lg py-6 ">
 
