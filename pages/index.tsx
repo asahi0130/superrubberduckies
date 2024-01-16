@@ -52,12 +52,35 @@ function Home() {
 
 <section className="mb-56" id="top">
 
-<h1 className="md:text-8xl text-5xl text-center  mx-auto sigfont textColor font-bold lg:mb-72 md:mt-24 md:mb-32 mb-32 lg:w-7/12">English College Picker</h1>
+{/* <h1 className="md:text-8xl text-5xl text-center  mx-auto sigfont textColor font-bold lg:mb-72 md:mt-24 md:mb-32 mb-32 lg:w-7/12">English College Picker</h1> */}
 {/* ml-8 md:ml-32 */}
 
+<div className="mx-16 md:mx-32 flex flex-col md:flex-row justify-between md:gap-x-8 md:mt-32">
+
+<div className="textColor robotoFont text-3xl font-semibold ">
+<p>✔︎ LOVE JAPAN </p>
+<p>✔︎ WANT TO STUDY IN JAPANESE UNIVERSITIES</p>
+<br></br>
+<p>...But cannot find English programs?</p>
+<br></br>
+<p className="text-[#FDD000]">LET US CHOOSE YOUR COURSES</p>
+<br></br>
+<p className="text-[#37447E] text-base">From course content to admission pamphlet... Gain honest and accurate overview of Keio and Waseda universities to choose your course! </p>
+</div>
+
+<div>
+<img width={800} height={600} src="/images/placeholder.jpeg">
+</img>
+
+
+  </div>
+
+</div>
+
+
 <div className="flex flex-row relative">
-<img className="absolute -left-16 md:bottom-48 " height={128} width={128} src="/images/keio.png" />
-<img className="absolute -right-16 md:bottom-48" height={128} width={128} src="/images/waseda.png" /> 
+<img className="absolute -left-16 md:bottom-72  bottom-[42  rem]" height={128} width={128} src="/images/keio.png" />
+<img className="absolute -right-16 md:bottom-72 bottom-[42  rem]" height={128} width={128} src="/images/waseda.png" /> 
 </div>
 
 {/* why */}
