@@ -71,11 +71,10 @@ function Home() {
 <div>
 <img width={800} height={600} src="/images/placeholder.jpeg">
 </img>
-
-
   </div>
 
 </div>
+
 
 
 <div className="flex flex-row relative">
@@ -85,8 +84,12 @@ function Home() {
 
 
 
-{/* ARROW */}
 
+
+{/* ARROW */}
+<div className="flex justify-center my-6">
+<img className="justify-center" width={128} height={128} src="/images/arrow.png"></img>
+</div>
 {/* why */}
 <section className="mx-8 md:mx-32 ">
 <h2 className="text-right mt-24 textColor font-semibold text-3xl">Why KEIO and WASEDA?</h2>
