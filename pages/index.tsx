@@ -72,18 +72,20 @@ function Home() {
           </div>
 
           <div>
-            <img width={800} height={600} src="/images/placeholder.jpeg"></img>
+            <img alt={"english college picker"} width={800} height={600} src="/images/placeholder.jpeg"></img>
           </div>
         </div>
 
         <div className="flex flex-row relative">
           <img
+          alt={"english college picker"}
             className="absolute -left-16 md:bottom-72  bottom-[42  rem]"
             height={128}
             width={128}
             src="/images/keio.png"
           />
           <img
+          alt={"english college picker"}
             className="absolute -right-16 md:bottom-72 bottom-[42  rem]"
             height={128}
             width={128}
@@ -108,6 +110,7 @@ function Home() {
           <div className="border-4 border-[#37447E] rounded-lg flex flex-col md:flex-row p-4">
             <div>
               <img
+              alt={"english college picker"}
                 width={800}
                 height={600}
                 src="/images/placeholder.jpeg"
