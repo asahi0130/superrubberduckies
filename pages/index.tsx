@@ -96,6 +96,7 @@ function Home() {
         {/* ARROW */}
         <div className="flex justify-center my-16">
           <img
+          alt={"english college picker"}
             className="justify-center"
             width={128}
             height={128}
