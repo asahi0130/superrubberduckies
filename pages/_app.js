@@ -26,11 +26,12 @@ function MyApp({ Component, pageProps }) {
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico"/>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" />
-<Script async src="https://www.googletagmanager.com/gtag/js?id=G-7C1KZSJZ87"></Script>
 
+<Script async src="https://www.googletagmanager.com/gtag/js?id=G-7C1KZSJZ87"></Script>
 <Script src="/tag.js"></Script>
 
-
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7C1KZSJZ87"></script>
+<script src="/tag.js"></script>
 </Head>
 <NextSeo title={"English College Picker"} description={"This website helps students decide which college suits them the best."}/>
 
