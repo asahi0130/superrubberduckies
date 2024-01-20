@@ -37,7 +37,11 @@ function Home() {
   const [ranking, setRanking] = useState<any>(rankingTuition);
 
   // START HERE
-  return (
+  return (<>
+  <Head>
+<meta name="google-site-verification" content="5enT4CrE6jlibl9f92Y-zMXsie_L05-a9KKOi8rFNJg" />
+
+  </Head>
     <section className="  overflow-x-hidden overflow-y-hidden">
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -45,7 +49,6 @@ function Home() {
         href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans&family=Roboto:wght@400;500;700&family=Sigmar+One&display=swap&family=Merriweather:wght@400;700&display=swap"
         rel="stylesheet"
       ></link>
-<meta name="google-site-verification" content="5enT4CrE6jlibl9f92Y-zMXsie_L05-a9KKOi8rFNJg" />
       {/* <NextSeo title={title}description={description}/> */}
       <Toaster position="bottom-right" />
 
@@ -246,6 +249,7 @@ function Home() {
         </div>
       </section>
     </section>
+    </>
   );
 }
 
