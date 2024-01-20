@@ -18,14 +18,14 @@ function MyApp({ Component, pageProps }) {
 
     <>
 
-<Script strategy='lazyOnload' src="https://www.googletagmanager.com/gtag/js?id=G-BXBPSGRLM4"></Script>
+<Script strategy='lazyOnload' src="https://www.googletagmanager.com/gtag/js?id=G-7C1KZSJZ87"></Script>
 {/* <Script strategy='lazyOnload' src="/tag.js"></Script> */}
 <Script strategy="lazyOnload">
         {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
-                    gtag('config', 'G-BXBPSGRLM4', {
+                    gtag('config', 'G-7C1KZSJZ87', {
                       
                     page_path: window.location.pathname,
                     });
