@@ -55,6 +55,7 @@ function Home() {
         {/* <h1 className="md:text-8xl text-5xl text-center  mx-auto sigfont textColor font-bold lg:mb-72 md:mt-24 md:mb-32 mb-32 lg:w-7/12">English College Picker</h1> */}
         {/* ml-8 md:ml-32 */}
 
+
         <div className="mx-16 md:mx-32 flex flex-col md:flex-row justify-between md:gap-x-8 md:mt-32">
           <div className="textColor robotoFont text-3xl font-semibold ">
             <p>✔︎ LOVE JAPAN </p>

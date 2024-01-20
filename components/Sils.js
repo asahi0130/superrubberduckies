@@ -18,6 +18,7 @@ function Sils() {
         <img
           width={600}
           height={400}
+
           className="rounded-2xl"
           src="/images/sils.jpg"
         ></img>

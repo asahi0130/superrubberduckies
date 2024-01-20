@@ -18,6 +18,23 @@ function MyApp({ Component, pageProps }) {
 
     <>
 
+<Script strategy='lazyOnload' src="https://www.googletagmanager.com/gtag/js?id=G-BXBPSGRLM4"></Script>
+{/* <Script strategy='lazyOnload' src="/tag.js"></Script> */}
+<Script strategy="lazyOnload">
+        {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-BXBPSGRLM4', {
+                      
+                    page_path: window.location.pathname,
+                    });
+                `}
+      </Script>
+
+{/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-BXBPSGRLM4"></script>
+<script src="/tag.js"></script> */}
+
 <Head>
 <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
 <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
@@ -27,11 +44,7 @@ function MyApp({ Component, pageProps }) {
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" />
 
-<Script async src="https://www.googletagmanager.com/gtag/js?id=G-BXBPSGRLM4"></Script>
-<Script src="/tag.js"></Script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BXBPSGRLM4"></script>
-<script src="/tag.js"></script>
 </Head>
 <NextSeo title={"English College Picker"} description={"This website helps students decide which college suits them the best."}/>
 
