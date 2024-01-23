@@ -29,8 +29,8 @@ function Sils() {
           ABOUT
         </h2>
         <div className="bg-[#800000] py-8 px-4">
-          <div>
-            <p className="text-white text-center text-lg md:w-1/2 md:mx-auto">
+          <div className="flex gap-y-12 md:gap-x-12 md:flex-row flex-col items-center mx-16 justify-center">
+            <p className="text-white text-center text-lg md:w-1/2">
               “SILS aims students to develop problem-solving skill for
               globalising world, conscious of their cultural identity but also
               develop multicultural society, concrete foundation of broad
@@ -38,42 +38,25 @@ function Sils() {
               interdisciplinary scholarly pursuits, express their own views in
               foreign language”
             </p>
-          </div>
 
-          <div className="flex flex-col md:flex-row justify-center md:gap-x-8 lg:gap-x-24 ">
-            <div>
-              <img
+            <img
+            className=""
                 width={200}
                 height={200}
-                src="/images/placeholder.jpeg"
+                src="/images/silsphamplet.jpeg"
               ></img>
-            </div>
-
-            <div>
-              <img
-                width={200}
-                height={200}
-                src="/images/placeholder.jpeg"
-              ></img>
-            </div>
-
-            <div>
-              <img
-                width={200}
-                height={200}
-                src="/images/placeholder.jpeg"
-              ></img>
-            </div>
-
-            <div>
-              <img
-                width={200}
-                height={200}
-                src="/images/placeholder.jpeg"
-              ></img>
-            </div>
           </div>
         </div>
+
+
+<div>
+  <h2>
+APPLICATION TIMELINE
+</h2>
+</div>
+
+
+
       </section>
     </React.Fragment>
   );
