@@ -76,7 +76,7 @@ function Home() {
           </div>
 
           <div className="flex items-center">
-            <img className="rounded-2xl shadow-slate-500 shadow-2xl" alt={"english college picker"} width={600} height={400} src="/images/splash.jpeg"></img>
+            <img className="rounded-2xl shadow-slate-800 shadow-2xl" alt={"english college picker"} width={600} height={400} src="/images/splash.jpeg"></img>
             
           </div>
         </div>
