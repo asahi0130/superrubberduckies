@@ -125,12 +125,20 @@ function Home() {
 
             <div>
               <p className="textColor text-center text-lg">
-                KEIO and WASEDA Universities are two top prestigious private
-                universities in Japan. Not only it offers fully-English programs
+                KEIO and WASEDA Universities are
+                &nbsp;<strong>two top prestigious private universities in Japan</strong> 
+                . Not only it offers 
+                &nbsp; <strong>fully-English programs</strong>&nbsp;
+
                 with opportunities to master N1 of Japanese Linguistic
-                Proficiency Test, but also ranked top 10 academically in Japan.
-                Both has strength in industry, with an impressive alumni
-                networks both nationally and internationally.
+                Proficiency Test, but also 
+                
+                &nbsp;<strong>ranked top 10 academically</strong>&nbsp;
+                
+                in Japan. Both has strength in industry, with an 
+                &nbsp;  <strong>impressive alumni networks</strong>&nbsp;
+                
+                 both nationally and internationally.
               </p>
             </div>
           </div>

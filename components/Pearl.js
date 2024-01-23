@@ -12,7 +12,7 @@ function Pearl() {
           Keio University
         </h1>
         <h2 className="text-xl font-semibold whitespace-nowrap mb-16">
-        Global Information and Governance Academic Programme
+        Programme in Economics for Alliances, Research and Leadership
         </h2>
 
         <img
