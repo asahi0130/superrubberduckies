@@ -19,7 +19,7 @@ function Sils() {
           width={600}
           height={400}
 
-          className="rounded-2xl"
+          className="rounded-2xl shadow-[#800000]  shadow-2xl"
           src="/images/sils.jpg"
         ></img>
       </div>
@@ -50,9 +50,11 @@ function Sils() {
 
 
 <div>
-  <h2>
+  <h2 className="text-[#800000] text-4xl text-center ml-8 mr-8 md:text-left md:ml-32 my-32 font-semibold">
 APPLICATION TIMELINE
 </h2>
+
+
 </div>
 
 

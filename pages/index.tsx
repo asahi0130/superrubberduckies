@@ -71,26 +71,27 @@ function Home() {
             <p className="text-[#37447E] text-base">
               From course content to admission pamphlet... Gain honest and
               accurate overview of Keio and Waseda universities to choose your
-              course!{" "}
+              course!
             </p>
           </div>
 
-          <div>
-            <img alt={"english college picker"} width={800} height={600} src="/images/placeholder.jpeg"></img>
+          <div className="flex items-center">
+            <img className="rounded-2xl" alt={"english college picker"} width={600} height={400} src="/images/splash.jpeg"></img>
+            
           </div>
         </div>
 
         <div className="flex flex-row relative">
           <img
           alt={"english college picker"}
-            className="absolute -left-16 md:bottom-72  bottom-[42  rem]"
+            className="absolute -left-16 md:bottom-48  bottom-[28rem]"
             height={128}
             width={128}
             src="/images/keio.png"
           />
           <img
           alt={"english college picker"}
-            className="absolute -right-16 md:bottom-72 bottom-[42  rem]"
+            className="absolute -right-16 md:bottom-48 bottom-[28rem]"
             height={128}
             width={128}
             src="/images/waseda.png"
@@ -112,13 +113,13 @@ function Home() {
           <h2 className="text-right mt-24 textColor font-semibold text-3xl italic">
             Why KEIO and WASEDA?
           </h2>
-          <div className="border-4 border-[#37447E] rounded-lg flex flex-col md:flex-row p-4">
+          <div className="border-4 border-[#37447E] rounded-lg flex flex-col md:flex-row p-4 items-center px-8 md:px-16">
             <div>
               <img
               alt={"english college picker"}
-                width={800}
-                height={600}
-                src="/images/placeholder.jpeg"
+                width={1000}
+                height={800}
+                src="/images/splash2.jpeg"
               ></img>
             </div>
 
@@ -136,10 +137,7 @@ function Home() {
         </section>
 
         <section className="" id="uni">
-          {/* <div className="flex flex-row relative">
-<img className="absolute -left-16" height={128} width={128} src="/images/keio.png" />
-<img className="absolute -right-16 top-96 md:top-64 lg:top-0" height={128} width={128} src="/images/waseda.png" /> 
-</div> */}
+  
 
           <div className="textColor mt-8">
             <p className="text-center font-semibold text-xl mb-2">
@@ -248,6 +246,13 @@ function Home() {
           </div>
         </div>
       </section>
+
+
+<section>
+  <h2 className="text-3xl text-center text-[#37447E] font-bold mt-32">DEADLINES</h2>
+</section>
+
+
     </section>
     </>
   );
