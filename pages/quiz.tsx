@@ -96,8 +96,8 @@ function Quiz() {
 
       <section id="top">
         {/* <h1 className="text-xl text-center my-8 robotoFont textColor">English College Picker</h1> */}
-        <h1 className="md:text-3xl text-3xl text-center my-8 robotoFont textColor">
-          QUIZ - College Match Test
+        <h1 className="md:text-4xl text-3xl text-center my-16 robotoFont textColor font-semibold ">
+         QUIZ - Find your best fit college!
         </h1>
       </section>
 

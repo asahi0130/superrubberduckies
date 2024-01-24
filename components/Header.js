@@ -52,7 +52,7 @@ const navigateAndScroll = (path, id) => {
 
     <img src="/images/icon.png" className="mr-3 h-9 sm:h-12" alt="Logo" />
     <span className="self-center text-lg font-semibold whitespace-nowrap textColor">
-    English College Picker
+    WeChoose
     </span>
 
   </Link>
