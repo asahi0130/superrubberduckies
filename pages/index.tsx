@@ -121,7 +121,7 @@ function Home() {
     </svg>
 </div>
   
-        <div className="text-left w-1/2 mx-auto text-white robotoFont text-3xl font-semibold ">
+        <div className="text-left lg:w-8/12 md:w-8/12 w-3/4 mx-auto text-white robotoFont text-4xl md:text-5xl font-semibold ">
             <p>Love Japan</p>
             <p>Want to study in Japan</p>
             <br></br>
@@ -129,7 +129,7 @@ function Home() {
             <br></br>
             <p className="text-[#FDD000]">LET US CHOOSE YOUR COURSES</p>
             <br></br>
-            <p className="text-[#37447E] text-base">
+            <p className=" text-base md:text-xl w-3/4">
             From course content to admission pamphlet... Gain honest and accurate overview of Keio and Waseda universities to choose your course! 
             </p>
           </div>

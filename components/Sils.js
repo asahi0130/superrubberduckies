@@ -3,7 +3,7 @@ import Link from "next/link";
 import toast, { Toaster } from "react-hot-toast";
 import university from "../public/university.json";
 import "animate.css";
-
+import Image from "next/image";
 function Sils() {
 
   function openPhamplet(){
@@ -61,6 +61,9 @@ function Sils() {
   <h2 className="text-[#800000] text-4xl text-center ml-8 mr-8 md:text-left md:ml-32 my-32 font-semibold">
 APPLICATION TIMELINE
 </h2>
+
+<Image width={2000} height={1000} href="/images/silstimeline.jpg"></Image>
+
 
 
 </div>
