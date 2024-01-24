@@ -7,7 +7,7 @@ import "animate.css";
 function Giga() {
   return (
     <React.Fragment>
-      <div className="text-[#111B47] md:mt-16 mx-8 md:mx-48">
+      <div className="animate__animated animate__slideInUp text-[#111B47] md:mt-16 mx-8 md:mx-48">
       <h1 className="text-4xl md:text-6xl font-semibold whitespace-nowrap mb-4">
           Keio University
         </h1>

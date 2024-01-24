@@ -7,7 +7,7 @@ import "animate.css";
 function Pse() {
   return (
     <React.Fragment>
-      <div className="text-[#800000] md:mt-16 mx-8 md:mx-48">
+      <div className="animate__animated animate__slideInUp text-[#800000] md:mt-16 mx-8 md:mx-48">
       <h1 className="text-4xl md:text-6xl font-semibold whitespace-nowrap mb-4">
           Waseda University
         </h1>

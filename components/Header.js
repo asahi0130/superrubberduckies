@@ -46,9 +46,9 @@ const navigateAndScroll = (path, id) => {
     return(<>
 
 <nav className={`transition-all border-gray-200 pl-1 sm:px-4 pt-4 headerColor  pb-4`}>
-<div className=" flex flex-wrap justify-between items-center mx-4 md:mx-24 md:mr-0">
+<div className=" flex flex-wrap justify-between items-center mx-4 md:mx-24 md:mr-0 ">
 
-<Link href="/" className="flex items-center">
+<Link href="/" className="animate__animated animate__slideInLeft flex items-center">
 
     <img src="/images/icon.png" className="mr-3 h-9 sm:h-12" alt="Logo" />
     <span className="self-center text-lg font-semibold whitespace-nowrap textColor robotoFont">
@@ -63,7 +63,7 @@ const navigateAndScroll = (path, id) => {
     onClick={handleClick}
     data-collapse-toggle="mobile-menu"
     type="button"
-    className="inline-flex items-center p-2 ml-3 text-sm  rounded-lg md:hidden  focus:outline-none  text-gray-400  active:opacity-80"
+    className=" animate__animated animate__slideInRight  inline-flex items-center p-2 ml-3 text-sm  rounded-lg md:hidden  focus:outline-none  text-gray-400  active:opacity-80"
     aria-controls="mobile-menu"
     aria-expanded="false"
   >
@@ -95,16 +95,7 @@ const navigateAndScroll = (path, id) => {
   </button>
 
 
-
-
-
-
-
-
-
-
-
-  <ul className={` flex flex-col  md:flex-row w-full md:w-auto md:gap-x-16  `} id="mobile-menu1">
+  <ul className={` animate__animated animate__slideInRight flex flex-col  md:flex-row w-full md:w-auto md:gap-x-16  `} id="mobile-menu1">
   {/* <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium"> */}
 
   <li key={"HeaderInfo1"} className="textColor flex flex-row justify-center items-center gap-x-5 md:mt-0 mt-2 group relative">
@@ -127,7 +118,7 @@ const navigateAndScroll = (path, id) => {
 <li key={"HeaderInfo2"} className="textColor flex flex-row justify-center items-center gap-x-5 md:mt-0 relative group">
     <div className={`${active ? "" : "hidden "}md:py-0 py-4 w-full md:block md:w-auto`}>
         <button className="textColor border-b md:border-none font-extrabold w-full justify-center flex items-center text-center hover:text-[#800000] transition-all">
-           &nbsp;&nbsp;Waseda&nbsp;&nbsp;
+          Waseda&nbsp;&nbsp; &nbsp;&nbsp;
         </button>
         <div className="absolute w-full left-0 mt-2 bg-white shadow-md opacity-0 group-hover:opacity-100 transition-opacity">
             <div className="flex flex-col items-stretch">

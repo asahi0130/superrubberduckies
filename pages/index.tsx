@@ -60,10 +60,10 @@ function Home() {
         {/* ml-8 md:ml-32 */}
 
 
-        <div className="mx-8 md:ml-8 md:mr-12 lg:mr-32 lg:ml-32 flex flex-col md:flex-row justify-center md:gap-x-32 md:mt-36">
+        <div className="mx-8 md:ml-8 md:mr-12 lg:mr-32 lg:ml-32 flex flex-col md:flex-row justify-center md:gap-x-32 md:mt-36 animate__animated animate__bounceInUp">
 
 
-          <div className="textColor robotoFont text-4xl whitespace-nowrap md:text-4xl lg:text-6xl xl:text-8xl font-semibold ">
+          <div className="textColor robotoFont text-4xl whitespace-nowrap md:text-4xl lg:text-6xl xl:text-8xl font-semibold   ">
            
            <div className="flex flex-row ">
             
@@ -122,17 +122,15 @@ function Home() {
 </div>
   
         <div className="text-left w-1/2 mx-auto text-white robotoFont text-3xl font-semibold ">
-            <p>LOVE JAPAN </p>
-            <p>WANT TO STUDY IN JAPANESE UNIVERSITIES</p>
+            <p>Love Japan</p>
+            <p>Want to study in Japan</p>
             <br></br>
-            <p>...But cannot find English programs?</p>
+            <p>...but cannot find English programs?</p>
             <br></br>
             <p className="text-[#FDD000]">LET US CHOOSE YOUR COURSES</p>
             <br></br>
             <p className="text-[#37447E] text-base">
-              From course content to admission pamphlet... Gain honest and
-              accurate overview of Keio and Waseda universities to choose your
-              course!
+            From course content to admission pamphlet... Gain honest and accurate overview of Keio and Waseda universities to choose your course! 
             </p>
           </div>
           </div>

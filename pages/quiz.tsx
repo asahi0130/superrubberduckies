@@ -94,7 +94,7 @@ function Quiz() {
 
       {/* top */}
 
-      <section id="top">
+      <section id="top" className="animate__animated animate__bounceInDown">
         {/* <h1 className="text-xl text-center my-8 robotoFont textColor">English College Picker</h1> */}
         <h1 className="md:text-7xl text-3xl text-center pt-16 mt-8 robotoFont textColor font-semibold ">
          QUIZ
@@ -104,7 +104,7 @@ function Quiz() {
       </section>
 
       {/* Quiz */}
-      <section id="quiz" className="robotoFont">
+      <section id="quiz" className="robotoFont animate__animated animate__slideInUp">
         <section className="my-24" id="q1">
           <div className="relative bg-[#d9d9d9] rounded-lg mx-16 md:mx-36 lg:mx-72 textColor pt-16 pb-8">
             <h2 className="text-6xl absolute z-40 -top-4 ml-4 font-extrabold">
