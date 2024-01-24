@@ -1,4 +1,4 @@
-import React, { use, useEffect, useState } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import { NextSeo } from "next-seo";
 import Head from "next/head";
@@ -93,6 +93,61 @@ function Home() {
   
     }
 
+
+    const ref = useRef(null);
+    const ref2 = useRef(null);
+    const ref3 = useRef(null);
+    const ref4 = useRef(null);
+
+    useEffect(() => {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          const [entry] = entries;
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate__animated', 'animate__slideInUp');
+          } 
+        },
+        {
+          root: null,
+          threshold: 0,
+        }
+      );
+  
+      if (ref.current) {
+        observer.observe(ref.current);
+      }
+  
+      if (ref2.current) {
+        observer.observe(ref2.current);
+      }
+
+      if (ref3.current) {
+        observer.observe(ref3.current);
+      }
+  
+      if (ref4.current) {
+        observer.observe(ref4.current);
+      }
+      return () => {
+        if (ref.current) {
+          observer.unobserve(ref.current);
+        }
+
+        if (ref2.current) {
+          observer.unobserve(ref2.current);
+        }
+
+        if (ref3.current) {
+          observer.unobserve(ref3.current);
+        }
+
+        if (ref4.current) {
+          observer.unobserve(ref4.current);
+        }
+      };
+    }, []);
+
+
   // START HERE
   return (<>
   <Head>
@@ -165,7 +220,7 @@ function Home() {
 
 
 
-<div className="flex flex-col  justify-center text-left  bg-[#1E2E76] pt-72 pb-64 mt-64 mb-16 relative">
+<div className="flex flex-col  justify-center text-left  bg-[#1E2E76] pt-64 pb-64 mt-64 mb-16 relative">
 <div className="custom-shape-divider-top-1706084174">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M602.45,3.86h0S572.9,116.24,281.94,120H923C632,116.24,602.45,3.86,602.45,3.86Z" className="shape-fill"></path>
@@ -177,7 +232,7 @@ function Home() {
     </svg>
 </div>
   
-        <div className="text-left lg:ml-[30%] lg:w-8/12 md:w-8/12 w-3/4 mx-auto text-white  text-3xl md:text-4xl font-semibold ">
+        <div ref={ref} className="text-left lg:ml-[30%] lg:w-8/12 md:w-8/12 w-3/4 mx-auto text-white  text-3xl md:text-4xl font-semibold ">
             <p>Love Japan</p>
             <p>Want to study in Japan</p>
             <br></br>
@@ -203,7 +258,7 @@ function Home() {
           ></img>
         </div> */}
         {/* why */}
-        <section className="mx-8 lg:mx-48 md:mx-16 ">
+        <section ref={ref2} className="mx-8 lg:mx-48 md:mx-16 ">
           <h2 className="text-right mt-24 textColor font-semibold text-5xl ">
             Why KEIO and WASEDA?
           </h2>
@@ -277,7 +332,7 @@ function Home() {
 <img src="/images/waseda.png" /> */}
 
       {/* ranking */}
-      <section className="mt-48">
+      <section ref={ref3} className="mt-48">
         <h2 className="text-[#37447E] text-6xl font-semibold -mb-1 md:ml-32 ml-0 md:text-left text-center">
           RANKING
         </h2>
@@ -359,15 +414,15 @@ function Home() {
       </section>
 
 
-<section>
-  <h2 className="text-5xl text-center text-[#37447E] font-bold mt-32">DEADLINES</h2>
-</section>
 
 
 
 
 
-<section className="mx-auto z-20 slideshow md:w-5/12 mb-32">
+
+
+<section ref={ref4} className="mx-auto z-20 slideshow md:w-5/12 mb-32">
+<h2 className="text-5xl text-center text-[#37447E] font-bold mt-32">DEADLINES</h2>
 
 
 <img  
