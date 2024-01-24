@@ -15,22 +15,22 @@ function Home() {
   const description = "Descriotion";
 
   const rankingTuition = {
-    rank: ["PSE(Waseda)", "PEARL(Keio)", "GIGA(Keio)", "SILS(Waseda)"],
+    rank: ["Waseda University PSE", "Keio University PEARL", "Keio University GIGA", "Waseda University SILS"],
     name: "Tuition",
   };
 
   const rankingInternational = {
-    rank: ["GIGA(Keio)", "SILS(Waseda)", "PEARL(Keio)", "PSE(Waseda)"],
+    rank: ["Keio University GIGA", "Waseda University SILS", "Keio University PEARL", "Waseda University PSE"],
     name: "International Students",
   };
 
   const rankingAcceptance = {
-    rank: ["PSE(Waseda)", "SILS(Waseda)", "PEARL(Keio)", "GIGA(Keio)"],
+    rank: ["Waseda University PSE", "Waseda University SILS", "Keio University PEARL", "Keio University GIGA"],
     name: "Acceptance Rate",
   };
 
   const rankingResearch = {
-    rank: ["GIGA(Keio)", "PEARL(Keio)", "SILS(Waseda)", "PSE(Waseda)"],
+    rank: ["Keio University GIGA", "Keio University PEARL", "Waseda University SILS", "Waseda University PSE"],
     name: "Research",
   };
 
