@@ -51,7 +51,7 @@ const navigateAndScroll = (path, id) => {
 <Link href="/" className="flex items-center">
 
     <img src="/images/icon.png" className="mr-3 h-9 sm:h-12" alt="Logo" />
-    <span className="self-center text-lg font-semibold whitespace-nowrap textColor">
+    <span className="self-center text-lg font-semibold whitespace-nowrap textColor robotoFont">
     WeChoose
     </span>
 

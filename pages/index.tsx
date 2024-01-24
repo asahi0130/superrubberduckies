@@ -109,7 +109,7 @@ function Home() {
 
 
 
-<div className="text-left  bg-[#1E2E76] pt-72 pb-64 mt-64 mb-16 relative">
+<div className="flex flex-col  justify-center text-left  bg-[#1E2E76] pt-72 pb-64 mt-64 mb-16 relative">
 <div className="custom-shape-divider-top-1706084174">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M602.45,3.86h0S572.9,116.24,281.94,120H923C632,116.24,602.45,3.86,602.45,3.86Z" className="shape-fill"></path>
@@ -121,7 +121,7 @@ function Home() {
     </svg>
 </div>
   
-        <div className="flex flex-col text-left mx-auto text-white robotoFont text-3xl font-semibold ">
+        <div className="text-left w-1/2 mx-auto text-white robotoFont text-3xl font-semibold ">
             <p>LOVE JAPAN </p>
             <p>WANT TO STUDY IN JAPANESE UNIVERSITIES</p>
             <br></br>
