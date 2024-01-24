@@ -51,7 +51,7 @@ const navigateAndScroll = (path, id) => {
 <Link href="/" className="animate__animated animate__slideInLeft flex items-center">
 
     <img src="/images/icon.png" className="mr-3 h-9 sm:h-12" alt="Logo" />
-    <span className="self-center text-lg font-semibold whitespace-nowrap textColor robotoFont">
+    <span className="self-center text-3xl font-semibold whitespace-nowrap textColor robotoFont">
     WeChoose
     </span>
 
@@ -98,7 +98,7 @@ const navigateAndScroll = (path, id) => {
   <ul className={` animate__animated animate__slideInRight flex flex-col  md:flex-row w-full md:w-auto md:gap-x-16  `} id="mobile-menu1">
   {/* <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium"> */}
 
-  <li key={"HeaderInfo1"} className="textColor flex flex-row justify-center items-center gap-x-5 md:mt-0 mt-2 group relative">
+  <li key={"HeaderInfo1"} className="textColor flex flex-row justify-center items-center gap-x-2 md:mt-0 mt-2 group relative">
     <div className={`${active ? "" : "hidden "}md:py-0 py-4 w-full md:block md:w-auto`}>
         <button className=" textColor border-b md:border-none font-extrabold w-full justify-center flex items-center text-center hover:text-[#FFC700] transition-all">
         &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;{`Keio`}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -115,7 +115,7 @@ const navigateAndScroll = (path, id) => {
 </li>
 
 
-<li key={"HeaderInfo2"} className="textColor flex flex-row justify-center items-center gap-x-5 md:mt-0 relative group">
+<li key={"HeaderInfo2"} className="textColor flex flex-row justify-center items-center gap-x-2 md:mt-0 relative group">
     <div className={`${active ? "" : "hidden "}md:py-0 py-4 w-full md:block md:w-auto`}>
         <button className="textColor border-b md:border-none font-extrabold w-full justify-center flex items-center text-center hover:text-[#800000] transition-all">
           Waseda&nbsp;&nbsp; &nbsp;&nbsp;

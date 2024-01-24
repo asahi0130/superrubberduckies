@@ -116,7 +116,7 @@ function Home() {
         {/* ml-8 md:ml-32 */}
 
 
-        <div className="mx-8 md:ml-8 md:mr-12 lg:mr-32 lg:ml-32 flex flex-col md:flex-row justify-center md:gap-x-32 md:mt-36 animate__animated animate__bounceInUp">
+        <div className="mx-8 md:ml-8 md:mr-12 lg:mr-32 lg:ml-32 flex flex-col md:flex-row justify-center md:gap-x-16 md:mt-36 animate__animated animate__bounceInUp">
 
 
           <div className="textColor robotoFont text-4xl whitespace-nowrap md:text-4xl lg:text-6xl xl:text-8xl font-semibold   ">
@@ -140,7 +140,7 @@ function Home() {
           </div>
 
           <div className="flex items-center">
-            <Image className="rounded-2xl shadow-slate-600 shadow-2xl" alt={"english college picker"} width={400} height={200} src="/images/splash.jpeg"></Image>
+            <Image className="rounded-2xl shadow-slate-600 shadow-2xl" alt={"english college picker"} width={700} height={600} src="/images/splash.jpeg"></Image>
             
           </div>
         </div>
@@ -148,16 +148,16 @@ function Home() {
         <div className="flex flex-row relative">
           <img
           alt={"english college picker"}
-            className="absolute -left-16 md:bottom-16 lg:bottom-32  bottom-[10rem] -z-40"
-            height={128}
-            width={128}
+            className="absolute -left-24 md:bottom-16 lg:bottom-32  bottom-[10rem] -z-40"
+            height={200}
+            width={200}
             src="/images/keio.png"
           />
           <img
           alt={"english college picker"}
-            className="absolute -right-16 md:bottom-16 lg:bottom-32 bottom-[10rem] -z-40"
-            height={128}
-            width={128}
+            className="absolute -right-24 md:bottom-16 lg:bottom-32 bottom-[10rem] -z-40"
+            height={200}
+            width={200}
             src="/images/waseda.png"
           />
         </div>
@@ -177,7 +177,7 @@ function Home() {
     </svg>
 </div>
   
-        <div className="text-left lg:w-8/12 md:w-8/12 w-3/4 mx-auto text-white robotoFont text-4xl md:text-5xl font-semibold ">
+        <div className="text-left lg:ml-[30%] lg:w-8/12 md:w-8/12 w-3/4 mx-auto text-white  text-3xl md:text-4xl font-semibold ">
             <p>Love Japan</p>
             <p>Want to study in Japan</p>
             <br></br>
@@ -203,11 +203,11 @@ function Home() {
           ></img>
         </div> */}
         {/* why */}
-        <section className="mx-8 lg:mx-56 md:mx-16 ">
-          <h2 className="text-right mt-24 textColor font-semibold text-5xl italic">
+        <section className="mx-8 lg:mx-48 md:mx-16 ">
+          <h2 className="text-right mt-24 textColor font-semibold text-5xl ">
             Why KEIO and WASEDA?
           </h2>
-          <div className="border-4 border-[#37447E] rounded-lg flex flex-col md:flex-row p-4 items-center px-8 md:px-16">
+          <div className="border-4 border-[#37447E] rounded-lg flex flex-col md:flex-row p-4 items-center px-8 md:px-24">
             <div>
               <img
               alt={"english college picker"}
@@ -236,12 +236,24 @@ function Home() {
               </p>
             </div>
           </div>
+
+
+
+            <div className="mt-32 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-4 gap-x-8">
+              {university.map((b, index) => (
+                <React.Fragment key={index}>
+                  <UniversityCard b={b} index={index} />
+                </React.Fragment>
+              ))}
+
+          </div>
+
+
+
         </section>
 
-        <section className="my-16 " id="uni">
+        {/* <section className="my-16 " id="uni">
   
-
-
 
           <div className="container px-24  mx-auto  rounded-lg py-6 ">
             <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-4 gap-x-8">
@@ -252,7 +264,9 @@ function Home() {
               ))}
             </div>
           </div>
-        </section>
+
+
+        </section> */}
       </section>
 
       {/* uni */}
@@ -263,11 +277,11 @@ function Home() {
 <img src="/images/waseda.png" /> */}
 
       {/* ranking */}
-      <section className="">
+      <section className="mt-48">
         <h2 className="text-[#37447E] text-6xl font-semibold -mb-1 md:ml-32 ml-0 md:text-left text-center">
           RANKING
         </h2>
-        <div className="bg-[#37447E] pb-16 px-8 md:px-32">
+        <div className="bg-[#1E2E76] pb-16 px-8 md:px-32">
           {/* buttons */}
           <div className=" py-8 gap-x-4 sm:gap-x-8 md:gap-x-16 lg:gap-x-32 flex flex-row text-white justify-center">
             <button

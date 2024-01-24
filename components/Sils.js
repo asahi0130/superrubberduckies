@@ -20,7 +20,7 @@ function Sils() {
           School of International Liberal Arts
         </h2>
         <img
-          width={600}
+          width={500}
           height={400}
           className="rounded-2xl shadow-[#800000]  shadow-2xl"
           src="/images/sils.jpg"
@@ -29,8 +29,18 @@ function Sils() {
 
       </div>
 
+
+      <img
+          alt={"english college picker"}
+            className="absolute -left-24  lg:bottom-56  bottom-[18rem] -z-40"
+            height={200}
+            width={200}
+            src="/images/waseda.png"
+          />
+
+          
       <section className="">
-        <h2 className="text-right mt-24 -mb-1 font-semibold text-5xl text-[#800000] mx-8 md:mx-32">
+        <h2 className="text-right mt-24 -mb-1 font-semibold text-6xl text-[#800000] mx-8 md:mx-32">
           ABOUT
         </h2>
         <div className="bg-[#800000] py-16 px-4">
