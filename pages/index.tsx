@@ -37,6 +37,62 @@ function Home() {
 
   const [ranking, setRanking] = useState<any>(rankingTuition);
 
+  const slides = 6;
+  const [current, setCurrent] = useState(1)
+  
+  function right(){
+  var next = current+1
+  if (next > slides){
+    setCurrent(1)
+  } else{
+  setCurrent(next)
+  }
+  }
+  
+  function left(){
+    var prev = current-1
+    if (prev < 1){
+      setCurrent(slides)
+    } else{
+    setCurrent(prev)
+    }
+    }
+  
+    function changeSlide(num:any){
+    
+      if (num < 1 || num > slides){
+        return
+      } else {
+        setCurrent(num)
+      }
+    
+    }
+  
+    function clickImg(num:any){
+  if (num < 1 || num > slides){
+    return
+  } else
+   if (num == 1) {
+// zoom in
+   } else
+   if (num == 2){
+// zoom in
+   } else
+   if (num == 3){
+    //ZOOM IN 
+   } else
+   if (num == 4){
+  //ZOOM IN
+   } else
+   if (num == 5){
+  //ZOOM IN
+   }else
+   if (num == 6){
+  //ZOOM IN
+   }
+  
+    }
+
   // START HERE
   return (<>
   <Head>
@@ -292,6 +348,121 @@ function Home() {
 <section>
   <h2 className="text-3xl text-center text-[#37447E] font-bold mt-32">DEADLINES</h2>
 </section>
+
+
+
+
+
+<section className="mx-auto z-20 slideshow md:w-5/12 mb-32">
+
+
+<img  
+          className="mb-12"
+          src="images/key.png"
+          alt="key"
+        />
+
+    <div onClick={() => clickImg(1)} className={` transition-all block slide px-12 fade ${current == 1 ? ('is-active') : ('')}`}>
+    <span className="rainbow"></span>
+      <span className="slide-number">1 / 6</span>
+      <figure className="slide-image">
+        <img
+          src="/images/1.jpg"
+          alt="calendar"
+        />
+
+      </figure>
+    </div>
+
+
+    <div onClick={() => clickImg(2)} className={` transition-all block slide px-12 fade ${current == 2 ? ('is-active') : ('')}`}>
+    <span className="rainbow"></span>
+      <span className="slide-number">2 / 6</span>
+      
+      <figure className="slide-image">
+        <img
+          src="/images/2.jpg"
+          alt="calendar"
+        />
+
+      </figure>
+    </div>
+
+    <div onClick={() => clickImg(3)} className={` transition-all block slide px-12 fade ${current == 3 ? ('is-active') : ('')}`}>
+    <span className="rainbow"></span>
+      <span className="slide-number"><p>3 / 6</p></span>
+      <figure className="slide-image">
+        <img
+          src="/images/3.jpg"
+          alt="calendar"
+        />
+
+      </figure>
+    </div>
+
+    <div onClick={() => clickImg(4)} className={` transition-all block slide px-12 fade ${current == 4 ? ('is-active') : ('')}`}>
+    <span className="rainbow"></span>  
+        <span className="slide-number">4 / 6</span>
+      <figure className="slide-image">
+        <img
+          src="/images/4.jpg"
+          alt="calendar"
+        />
+
+      </figure>
+    </div>
+
+    <div onClick={() => clickImg(5)} className={` transition-all block slide px-12 fade ${current == 5 ? ('is-active') : ('')}`}>
+    <span className="rainbow"></span>
+      <span className="slide-number">5 / 6</span>
+      <figure className="slide-image">
+        <img
+          src="/images/5.jpg"
+          alt="calendar"
+        />
+
+      </figure>
+    </div>
+    
+    <div onClick={() => clickImg(6)} className={` transition-all block slide px-12 fade ${current == 6 ? ('is-active') : ('')}`}>
+    <span className="rainbow"></span>
+      <span className="slide-number">6 / 6</span>
+      <figure className="slide-image">
+        <img
+          src="/images/6.jpg"
+          alt="calendar"
+        />
+
+      </figure>
+    </div>
+
+
+
+
+
+
+    <div className="controlsL">
+      <button className="prev" onClick={() => left()}>&#10094;</button>
+    </div>
+
+    <div className="controlsR">
+      <button className="next" onClick={() => right()}>&#10095;</button>
+    </div>
+
+    <div className="dots-container">
+      <span  className={`dot ${current == 1 ? ('is-active') : ('')}`} onClick={() => changeSlide(1)}></span>
+      <span  className={`dot ${current == 2 ? ('is-active') : ('')}`} onClick={() => changeSlide(2)}></span>
+      <span  className={`dot ${current == 3 ? ('is-active') : ('')}`} onClick={() => changeSlide(3)}></span>
+      <span  className={`dot ${current == 4 ? ('is-active') : ('')}`} onClick={() => changeSlide(4)}></span>
+      <span  className={`dot ${current == 5 ? ('is-active') : ('')}`} onClick={() => changeSlide(5)}></span>
+      <span  className={`dot ${current == 6 ? ('is-active') : ('')}`} onClick={() => changeSlide(6)}></span>
+
+
+
+    </div>
+  </section>
+
+
 
 
     </section>
