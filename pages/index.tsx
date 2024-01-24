@@ -346,7 +346,7 @@ function Home() {
 
 
 <section>
-  <h2 className="text-3xl text-center text-[#37447E] font-bold mt-32">DEADLINES</h2>
+  <h2 className="text-5xl text-center text-[#37447E] font-bold mt-32">DEADLINES</h2>
 </section>
 
 
