@@ -8,10 +8,10 @@ function Pse() {
   return (
     <React.Fragment>
       <div className="text-[#800000] md:mt-16 mx-8 md:mx-48">
-        <h1 className="text-3xl font-semibold whitespace-nowrap mb-4">
+      <h1 className="text-4xl md:text-6xl font-semibold whitespace-nowrap mb-4">
           Waseda University
         </h1>
-        <h2 className="text-xl font-semibold whitespace-nowrap mb-16">
+        <h2 className="text-xl md:text-3xl font-semibold mb-16">
         School of Political Science and Economics
         </h2>
 
@@ -28,18 +28,24 @@ function Pse() {
         <h2 className="text-right mt-24 -mb-1 font-semibold text-4xl text-[#800000] mx-8 md:mx-32">
           ABOUT
         </h2>
-        <div className="bg-[#800000] py-8 px-4">
+        <div className="bg-[#800000] py-16 px-4">
           <div className="flex gap-y-12 md:gap-x-12 md:flex-row flex-col items-center mx-16 justify-center">
             <p className="text-white text-center text-lg md:w-1/2">
 "School of Political Science and Economics is a full-English programme develops students with strong leadership skills within international society. This course provides clonal-standard classes with highest quality. This consist of Japanese and Global Political Economy, Political Science and Economics, Quantitative Approaches to Political Science and Economics and finally Seminars."
             </p>
 
+            <Link href="/" target="_blank">
+
             <img
-            className=""
+            className="hover:cursor-pointer active:opacity-80"
                 width={200}
                 height={200}
-                src="/images/Psephamplet.jpeg"
+                src="/images/psephamplet.jpeg"
               ></img>
+
+              </Link>
+
+
           </div>
         </div>
 

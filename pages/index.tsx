@@ -7,6 +7,7 @@ import { useRouter } from "next/router";
 import university from "../public/university.json";
 import UniversityCard from "../components/UniversityCard";
 import "animate.css";
+import Image from "next/image";
 
 //END OF IMPORTS
 
@@ -59,24 +60,31 @@ function Home() {
         {/* ml-8 md:ml-32 */}
 
 
-        <div className="mx-16 md:mx-32 flex flex-col md:flex-row justify-between md:gap-x-8 md:mt-32">
-          <div className="textColor robotoFont text-3xl font-semibold ">
-            <p>✔︎ LOVE JAPAN </p>
-            <p>✔︎ WANT TO STUDY IN JAPANESE UNIVERSITIES</p>
+        <div className="mx-8 md:ml-8 md:mr-12 lg:mr-32 lg:ml-32 flex flex-col md:flex-row justify-center md:gap-x-32 md:mt-36">
+
+
+          <div className="textColor robotoFont text-4xl whitespace-nowrap md:text-4xl lg:text-8xl font-semibold ">
+           
+           <div className="flex flex-row ">
+            
+            <p className="mb-8">Find your&nbsp;</p>
+            <p className="text-[#FDD000]">college</p>
+
+            </div>
+            <div className="flex flex-row">
+           
+            <p>in</p>
+            <p className="scale-125 text-[#800000]">&nbsp;&nbsp;Japan</p>
+            <p className="scale-125">&nbsp;&nbsp;.</p>
+
+
+            </div>
             <br></br>
-            <p>...But cannot find English programs?</p>
-            <br></br>
-            <p className="text-[#FDD000]">LET US CHOOSE YOUR COURSES</p>
-            <br></br>
-            <p className="text-[#37447E] text-base">
-              From course content to admission pamphlet... Gain honest and
-              accurate overview of Keio and Waseda universities to choose your
-              course!
-            </p>
+     
           </div>
 
           <div className="flex items-center">
-            <img className="rounded-2xl shadow-slate-600 shadow-2xl" alt={"english college picker"} width={600} height={400} src="/images/splash.jpeg"></img>
+            <Image className="rounded-2xl shadow-slate-600 shadow-2xl" alt={"english college picker"} width={400} height={200} src="/images/splash.jpeg"></Image>
             
           </div>
         </div>
@@ -98,8 +106,40 @@ function Home() {
           />
         </div>
 
+
+
+
+<div className="text-center bg-[#1E2E76] pt-72 pb-64 mt-64 mb-16 relative">
+<div className="custom-shape-divider-top-1706084174">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M602.45,3.86h0S572.9,116.24,281.94,120H923C632,116.24,602.45,3.86,602.45,3.86Z" className="shape-fill"></path>
+    </svg>
+</div>
+<div className="custom-shape-divider-bottom-1706084301">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200,0H0V120H281.94C572.9,116.24,602.45,3.86,602.45,3.86h0S632,116.24,923,120h277Z" className="shape-fill"></path>
+    </svg>
+</div>
+  
+        <div className="textColor robotoFont text-3xl font-semibold ">
+            <p>LOVE JAPAN </p>
+            <p>WANT TO STUDY IN JAPANESE UNIVERSITIES</p>
+            <br></br>
+            <p>...But cannot find English programs?</p>
+            <br></br>
+            <p className="text-[#FDD000]">LET US CHOOSE YOUR COURSES</p>
+            <br></br>
+            <p className="text-[#37447E] text-base">
+              From course content to admission pamphlet... Gain honest and
+              accurate overview of Keio and Waseda universities to choose your
+              course!
+            </p>
+          </div>
+          </div>
+
+
         {/* ARROW */}
-        <div className="flex justify-center my-16">
+        {/* <div className="flex justify-center my-16">
           <img
           alt={"english college picker"}
             className="justify-center"
@@ -107,7 +147,7 @@ function Home() {
             height={128}
             src="/images/arrow.png"
           ></img>
-        </div>
+        </div> */}
         {/* why */}
         <section className="mx-8 md:mx-32 ">
           <h2 className="text-right mt-24 textColor font-semibold text-3xl italic">

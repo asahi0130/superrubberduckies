@@ -103,3 +103,46 @@ font-family: 'Lato', sans-serif;
 {font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
+
+
+.custom-shape-divider-top-1706084174 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1706084174 svg {
+  position: relative;
+  display: block;
+  width: calc(151% + 1.3px);
+  height: 110px;
+}
+
+.custom-shape-divider-top-1706084174 .shape-fill {
+  fill: #ffffff;
+}
+
+.custom-shape-divider-bottom-1706084301 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1706084301 svg {
+  position: relative;
+  display: block;
+  width: calc(151% + 1.3px);
+  height: 110px;
+}
+
+.custom-shape-divider-bottom-1706084301 .shape-fill {
+  fill: #FFFFFF;
+}

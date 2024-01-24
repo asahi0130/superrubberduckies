@@ -8,10 +8,10 @@ function Giga() {
   return (
     <React.Fragment>
       <div className="text-[#111B47] md:mt-16 mx-8 md:mx-48">
-        <h1 className="text-3xl font-semibold whitespace-nowrap mb-4">
+      <h1 className="text-4xl md:text-6xl font-semibold whitespace-nowrap mb-4">
           Keio University
         </h1>
-        <h2 className="text-xl font-semibold whitespace-nowrap mb-16">
+        <h2 className="text-xl md:text-3xl font-semibold  mb-16">
         Global Information and Governance Academic Programme
         </h2>
 
@@ -28,18 +28,22 @@ function Giga() {
         <h2 className="text-right mt-24 -mb-1 font-semibold text-4xl text-[#111B47] mx-8 md:mx-32">
           ABOUT
         </h2>
-        <div className="bg-[#111B47] py-8 px-4">
+        <div className="bg-[#111B47] py-16 px-4">
           <div className="flex gap-y-12 md:gap-x-12 md:flex-row flex-col items-center mx-16 justify-center">
             <p className="text-white text-center text-lg md:w-1/2">
             "Global Information and Governance Academic Programme is a full-English programme allows students to develop problem-solving skills with integration of technology, science, design and governance fields. This course prepares students for unmatched careers in global enterprises in this rapidly changing era."
             </p>
 
+            <Link href="/" target="_blank">
+
             <img
-            className=""
+            className="hover:cursor-pointer active:opacity-80"
                 width={200}
                 height={200}
                 src="/images/gigaphamplet.png"
               ></img>
+
+              </Link>
           </div>
         </div>
 
