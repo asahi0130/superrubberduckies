@@ -211,7 +211,7 @@ function Home() {
 
           <div className=" flex flex-col text-white justify-center mt-8">
             <div className="flex flex-row justify-center gap-x-12">
-              <h3 className="text-3xl font-semibold mt-3">1</h3>
+              <h3 className="text-5xl font-semibold mt-3">1</h3>
               <div className="bg-white  flex items-center h-full justify-center rounded-lg py-3 w-96 md:w-[48rem] ">
                 <p className="text-[#37447E] text-center whitespace-nowrap robotoFont text-2xl font-semibold  ">
                   {ranking.rank[0]}
@@ -222,7 +222,7 @@ function Home() {
 
           <div className=" flex flex-col text-white justify-center mt-8">
             <div className="flex flex-row justify-center gap-x-12">
-              <h3 className="text-3xl font-semibold mt-3">2</h3>
+              <h3 className="text-5xl font-semibold mt-3">2</h3>
               <div className="bg-white  flex items-center h-full justify-center rounded-lg py-3 w-96 md:w-[48rem] ">
                 <p className="text-[#37447E] text-center whitespace-nowrap robotoFont text-2xl font-semibold  ">
                   {ranking.rank[1]}
@@ -233,7 +233,7 @@ function Home() {
 
           <div className=" flex flex-col text-white justify-center mt-8">
             <div className="flex flex-row justify-center gap-x-12">
-              <h3 className="text-3xl font-semibold mt-3">3</h3>
+              <h3 className="text-5xl font-semibold mt-3">3</h3>
               <div className="bg-white  flex items-center h-full justify-center rounded-lg py-3 w-96 md:w-[48rem] ">
                 <p className="text-[#37447E] text-center whitespace-nowrap robotoFont text-2xl font-semibold  ">
                   {ranking.rank[2]}
@@ -244,7 +244,7 @@ function Home() {
 
           <div className=" flex flex-col text-white justify-center mt-8">
             <div className="flex flex-row justify-center gap-x-12">
-              <h3 className="text-3xl font-semibold mt-3">4</h3>
+              <h3 className="text-5xl font-semibold mt-3">4</h3>
               <div className="bg-white  flex items-center h-full justify-center rounded-lg py-3 w-96 md:w-[48rem] ">
                 <p className="text-[#37447E] text-center whitespace-nowrap robotoFont text-2xl font-semibold  ">
                   {ranking.rank[3]}
