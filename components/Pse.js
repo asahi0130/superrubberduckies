@@ -20,7 +20,7 @@ function Pse() {
           height={400}
 
           className="rounded-2xl shadow-[#800000]  shadow-2xl"
-          src="/images/Pse.jpg"
+          src="/images/pse.jpg"
         ></img>
       </div>
 
@@ -31,7 +31,7 @@ function Pse() {
         <div className="bg-[#800000] py-8 px-4">
           <div className="flex gap-y-12 md:gap-x-12 md:flex-row flex-col items-center mx-16 justify-center">
             <p className="text-white text-center text-lg md:w-1/2">
-              “Pse...”
+"School of Political Science and Economics is a full-English programme develops students with strong leadership skills within international society. This course provides clonal-standard classes with highest quality. This consist of Japanese and Global Political Economy, Political Science and Economics, Quantitative Approaches to Political Science and Economics and finally Seminars."
             </p>
 
             <img

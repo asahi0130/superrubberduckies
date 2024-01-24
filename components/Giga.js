@@ -31,14 +31,14 @@ function Giga() {
         <div className="bg-[#111B47] py-8 px-4">
           <div className="flex gap-y-12 md:gap-x-12 md:flex-row flex-col items-center mx-16 justify-center">
             <p className="text-white text-center text-lg md:w-1/2">
-            The GIGA Program strives to develop students into leaders who can identify and solve these issues by offering an education that integrates technology, science, design, and governance.Taught in English, the program equips students with the knowledge and skills needed in this era of rapid progress, positioning them for unmatched careers in global enterprises.
+            "Global Information and Governance Academic Programme is a full-English programme allows students to develop problem-solving skills with integration of technology, science, design and governance fields. This course prepares students for unmatched careers in global enterprises in this rapidly changing era."
             </p>
 
             <img
             className=""
                 width={200}
                 height={200}
-                src="/images/Gigaphamplet.jpeg"
+                src="/images/gigaphamplet.png"
               ></img>
           </div>
         </div>

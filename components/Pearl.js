@@ -31,7 +31,7 @@ function Pearl() {
         <div className="bg-[#111B47] py-8 px-4">
           <div className="flex gap-y-12 md:gap-x-12 md:flex-row flex-col items-center mx-16 justify-center">
             <p className="text-white text-center text-lg md:w-1/2">
-              “Pearl...”
+"Programme in Economics for Alliances, Research and Leadership is a full-English programme which provides BA in economics. It has objective to turn out energetic pioneers with a firm mental establishment in financial matters, who will be all inclusive dynamic totally difference callings."
             </p>
 
             <img
