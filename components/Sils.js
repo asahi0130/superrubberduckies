@@ -62,8 +62,13 @@ function Sils() {
 APPLICATION TIMELINE
 </h2>
 
-<Image width={2000} height={1000} href="/images/silstimeline.jpg"></Image>
 
+<img className="flex justify-center mb-32 mx-auto"
+              alt={"english college picker"}
+                width={800}
+                height={600}
+                src="/images/silstimeline.jpg"
+              ></img>
 
 
 </div>

@@ -34,13 +34,13 @@ function Pse() {
 "School of Political Science and Economics is a full-English programme develops students with strong leadership skills within international society. This course provides clonal-standard classes with highest quality. This consist of Japanese and Global Political Economy, Political Science and Economics, Quantitative Approaches to Political Science and Economics and finally Seminars."
             </p>
 
-            <Link href="/" target="_blank">
+            <Link href="https://www.waseda.jp/fpse/pse/assets/uploads/2023/09/00_2024_SPESE_EDP_AO_Admission_Guide.pdf" target="_blank">
 
             <img
             className="hover:cursor-pointer active:opacity-80"
                 width={200}
                 height={200}
-                src="/images/psephamplet.jpeg"
+                src="/images/psephamplet.png"
               ></img>
 
               </Link>
@@ -54,6 +54,16 @@ function Pse() {
   <h2 className="text-[#800000] text-4xl text-center ml-8 mr-8 md:text-left md:ml-32 my-32 font-semibold">
 APPLICATION TIMELINE
 </h2>
+
+
+<img className="flex justify-center mb-32 mx-auto"
+              alt={"english college picker"}
+                width={800}
+                height={600}
+                src="/images/psetimeline.jpg"
+              ></img>
+
+
 
 
 </div>

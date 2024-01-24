@@ -34,13 +34,13 @@ function Pearl() {
 "Programme in Economics for Alliances, Research and Leadership is a full-English programme which provides BA in economics. It has objective to turn out energetic pioneers with a firm mental establishment in financial matters, who will be all inclusive dynamic totally difference callings."
             </p>
 
-            <Link href="/" target="_blank">
+            <Link href="https://www.keio.ac.jp/en/admissions/undergraduate/pearl/application_guidebook_2024.pdf" target="_blank">
 
             <img
             className="hover:cursor-pointer active:opacity-80"
                 width={200}
                 height={200}
-                src="/images/pearlphamplet.jpeg"
+                src="/images/pearlphamplet.png"
               ></img>
 
               </Link>
@@ -52,6 +52,14 @@ function Pearl() {
   <h2 className="text-[#111B47] text-4xl text-center ml-8 mr-8 md:text-left md:ml-32 my-32 font-semibold">
 APPLICATION TIMELINE
 </h2>
+
+<img className="flex justify-center mb-32 mx-auto"
+              alt={"english college picker"}
+                width={800}
+                height={600}
+                src="/images/pearltimeline.jpg"
+              ></img>
+
 
 
 </div>

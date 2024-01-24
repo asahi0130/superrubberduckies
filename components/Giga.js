@@ -34,7 +34,7 @@ function Giga() {
             "Global Information and Governance Academic Programme is a full-English programme allows students to develop problem-solving skills with integration of technology, science, design and governance fields. This course prepares students for unmatched careers in global enterprises in this rapidly changing era."
             </p>
 
-            <Link href="/" target="_blank">
+            <Link href="https://www.sfc.keio.ac.jp/en/docs/giga_applicationguidebook2024.pdf" target="_blank">
 
             <img
             className="hover:cursor-pointer active:opacity-80"
@@ -52,6 +52,15 @@ function Giga() {
   <h2 className="text-[#111B47] text-4xl text-center ml-8 mr-8 md:text-left md:ml-32 my-32 font-semibold">
 APPLICATION TIMELINE
 </h2>
+
+
+<img className="flex justify-center mb-32 mx-auto"
+              alt={"english college picker"}
+                width={800}
+                height={600}
+                src="/images/gigatimeline.jpg"
+              ></img>
+
 
 
 </div>
