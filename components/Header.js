@@ -110,7 +110,7 @@ const navigateAndScroll = (path, id) => {
   <li key={"HeaderInfo1"} className="textColor flex flex-row justify-center items-center gap-x-5 md:mt-0 mt-2 group relative">
     <div className={`${active ? "" : "hidden "}md:py-0 py-4 w-full md:block md:w-auto`}>
         <button className=" textColor border-b md:border-none font-extrabold w-full justify-center flex items-center text-center hover:text-[#FFC700] transition-all">
-        &nbsp;&nbsp;&nbsp;{`Keio`}&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;{`Keio`}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </button>
         <div className="md:absolute w-full left-0 mt-2 bg-white shadow-md opacity-0 group-hover:opacity-100 transition-opacity ">
             <div className="flex flex-col items-stretch">
@@ -127,7 +127,7 @@ const navigateAndScroll = (path, id) => {
 <li key={"HeaderInfo2"} className="textColor flex flex-row justify-center items-center gap-x-5 md:mt-0 relative group">
     <div className={`${active ? "" : "hidden "}md:py-0 py-4 w-full md:block md:w-auto`}>
         <button className="textColor border-b md:border-none font-extrabold w-full justify-center flex items-center text-center hover:text-[#800000] transition-all">
-            {`Waseda`}
+           &nbsp;&nbsp;Waseda&nbsp;&nbsp;
         </button>
         <div className="absolute w-full left-0 mt-2 bg-white shadow-md opacity-0 group-hover:opacity-100 transition-opacity">
             <div className="flex flex-col items-stretch">

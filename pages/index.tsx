@@ -63,7 +63,7 @@ function Home() {
         <div className="mx-8 md:ml-8 md:mr-12 lg:mr-32 lg:ml-32 flex flex-col md:flex-row justify-center md:gap-x-32 md:mt-36">
 
 
-          <div className="textColor robotoFont text-4xl whitespace-nowrap md:text-4xl lg:text-8xl font-semibold ">
+          <div className="textColor robotoFont text-4xl whitespace-nowrap md:text-4xl lg:text-6xl xl:text-8xl font-semibold ">
            
            <div className="flex flex-row ">
             
@@ -92,14 +92,14 @@ function Home() {
         <div className="flex flex-row relative">
           <img
           alt={"english college picker"}
-            className="absolute -left-16 md:bottom-48  bottom-[28rem]"
+            className="absolute -left-16 md:bottom-16 lg:bottom-32  bottom-[10rem] -z-40"
             height={128}
             width={128}
             src="/images/keio.png"
           />
           <img
           alt={"english college picker"}
-            className="absolute -right-16 md:bottom-48 bottom-[28rem]"
+            className="absolute -right-16 md:bottom-16 lg:bottom-32 bottom-[10rem] -z-40"
             height={128}
             width={128}
             src="/images/waseda.png"
@@ -109,7 +109,7 @@ function Home() {
 
 
 
-<div className="text-center bg-[#1E2E76] pt-72 pb-64 mt-64 mb-16 relative">
+<div className="text-left  bg-[#1E2E76] pt-72 pb-64 mt-64 mb-16 relative">
 <div className="custom-shape-divider-top-1706084174">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M602.45,3.86h0S572.9,116.24,281.94,120H923C632,116.24,602.45,3.86,602.45,3.86Z" className="shape-fill"></path>
@@ -121,7 +121,7 @@ function Home() {
     </svg>
 </div>
   
-        <div className="textColor robotoFont text-3xl font-semibold ">
+        <div className="flex flex-col text-left mx-auto text-white robotoFont text-3xl font-semibold ">
             <p>LOVE JAPAN </p>
             <p>WANT TO STUDY IN JAPANESE UNIVERSITIES</p>
             <br></br>
@@ -149,16 +149,16 @@ function Home() {
           ></img>
         </div> */}
         {/* why */}
-        <section className="mx-8 md:mx-32 ">
-          <h2 className="text-right mt-24 textColor font-semibold text-3xl italic">
+        <section className="mx-8 lg:mx-56 md:mx-16 ">
+          <h2 className="text-right mt-24 textColor font-semibold text-5xl italic">
             Why KEIO and WASEDA?
           </h2>
           <div className="border-4 border-[#37447E] rounded-lg flex flex-col md:flex-row p-4 items-center px-8 md:px-16">
             <div>
               <img
               alt={"english college picker"}
-                width={1000}
-                height={800}
+                width={1200}
+                height={1000}
                 src="/images/splash2.jpeg"
               ></img>
             </div>
@@ -184,15 +184,10 @@ function Home() {
           </div>
         </section>
 
-        <section className="" id="uni">
+        <section className="my-16 " id="uni">
   
 
-          <div className="textColor mt-8">
-            <p className="text-center font-semibold text-xl mb-2">
-              About Courses
-            </p>
-            <p className="text-center italic mb-4">Press to find out more...</p>
-          </div>
+
 
           <div className="container px-24  mx-auto  rounded-lg py-6 ">
             <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-4 gap-x-8">
@@ -215,7 +210,7 @@ function Home() {
 
       {/* ranking */}
       <section className="">
-        <h2 className="text-[#37447E] text-4xl font-semibold -mb-1 md:ml-32 ml-0 md:text-left text-center">
+        <h2 className="text-[#37447E] text-6xl font-semibold -mb-1 md:ml-32 ml-0 md:text-left text-center">
           RANKING
         </h2>
         <div className="bg-[#37447E] pb-16 px-8 md:px-32">
