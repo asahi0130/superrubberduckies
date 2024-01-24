@@ -14,6 +14,14 @@ function sitemap() {
         >
           Index
         </p>
+
+        <p
+          onClick={() => window.open("/quiz")}
+          className="w-3/4 md:w-1/2 mx-auto text-left cursor-pointer text-blue-600 underline hover:text-blue-700 active:opacity-80"
+        >
+          Quiz
+        </p>
+        
         <br></br>
         <h2 className="text-xl w-3/4 md:w-1/2 mx-auto text-left">
           University:
@@ -47,6 +55,41 @@ function sitemap() {
         </p>
 
         <br></br>
+
+        <h2 className="text-xl w-3/4 md:w-1/2 mx-auto text-left">Other:</h2>
+
+<p
+  onClick={() => window.open("/policy")}
+  className="w-3/4 md:w-1/2 mx-auto text-left cursor-pointer text-blue-600 underline hover:text-blue-700 active:opacity-80"
+>
+  Privacy Policy
+</p>
+<p
+  onClick={() => window.open("/terms")}
+  className="w-3/4 md:w-1/2 mx-auto text-left cursor-pointer text-blue-600 underline hover:text-blue-700 active:opacity-80"
+>
+  Terms
+</p>
+
+<p
+  onClick={() => window.open("/sitemap")}
+  className="w-3/4 md:w-1/2 mx-auto text-left cursor-pointer text-blue-600 underline hover:text-blue-700 active:opacity-80"
+>
+  Sitemap
+</p>
+
+<p
+  onClick={() => window.open("/contact")}
+  className="w-3/4 md:w-1/2 mx-auto text-left cursor-pointer text-blue-600 underline hover:text-blue-700 active:opacity-80"
+>
+  Contact
+</p>
+
+
+<br></br>
+
+
+
       </div>
     </>
   );
