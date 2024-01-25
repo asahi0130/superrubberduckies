@@ -174,7 +174,7 @@ function Home() {
         <div className="mx-8 md:ml-8 md:mr-12 lg:mr-32 lg:ml-32 flex flex-col md:flex-row justify-center md:gap-x-16 md:mt-36 animate__animated animate__bounceInUp">
 
 
-          <div className="textColor robotoFont text-4xl whitespace-nowrap md:text-4xl lg:text-6xl xl:text-8xl font-semibold   ">
+          <div className="textColor  text-4xl whitespace-nowrap md:text-4xl lg:text-6xl xl:text-8xl font-semibold   ">
            
            <div className="flex flex-row ">
             
@@ -182,7 +182,7 @@ function Home() {
             <p className="text-[#FDD000]">college</p>
 
             </div>
-            <div className="flex flex-row">
+            <div className="mt-4 flex flex-row">
            
             <p>in</p>
             <p className="scale-125 text-[#800000]">&nbsp;&nbsp;Japan</p>
